@@ -8,24 +8,26 @@
     font-weight: 400;
     font-style: normal;
   }
-
+.body{
+    color:#0A3641;
+    max-width: 1400px;
+   
+}
   /*header*/
   .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     max-width: 1400px;
-    border: solid 1px black;
     font-family: "oswald-font" Verdana, Geneva, Tahoma, sans-serif;
+    color:#0A3641
 }
 .header img{
-    width: 200px;
+    width: 150px;
     flex:1;
+    margin:5px;
     
 }
 .nav {
     display: flex;
-    align-items: center;
     flex:1;
 }
 
@@ -34,11 +36,21 @@
     list-style: none;
     justify-content: center;
     flex:1;
+    color:#0A3641;
+    margin-left: 300px;
     
+}
+.ul_nav a{
+    text-decoration: none;
+    color:#0A3641;
+}
+.ul_nav a:hover{
+    color:#CB9B46
 }
 
 .ul_nav li {
     margin-right: 20px;
+    ;
 }
 
 .header_icons {
@@ -70,15 +82,7 @@
     font-family:sf-pro-display;
 }
 
-#men:hover{
-    color:#CB9B46;
-} 
-#women:hover{
-    color:#CB9B46;
-} 
-#sale:hover{
-    color:#CB9B46;
-}
+
 
 
 /*hero*/
@@ -86,7 +90,81 @@
 .hero_img{
     background-image: url("../images/iso-republic-hiker-approaches-snow-capped-mountains-free-stock-photo.jpg");
     background-size:cover; 
-    background-position: center; 
-    height: 70vh;
+    background-position: 10% 65%;
+    height: 500px;
     max-width: 1400px;
+}
+#mp_h3{
+    text-align: center;
+    font-size: 36px;
+    max-width: 1400px;
+    color: #0A3641;
+}
+
+/*product cards*/
+.product_slider{
+    display: flex;
+    margin: 10px 10px;
+    max-width: 1400px;
+    justify-content: center;;
+}
+.product_slider img{
+    width: 100%;
+    object-fit: cover;
+    margin: 10px;
+    
+}
+.product_card{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    max-width: 300px;
+    margin: 20px;
+    align-items: center;
+    
+   
+    
+}
+.price{ 
+    color:white;
+    font-size: 20px;
+}
+.h4_productcard{
+    font-size: medium;
+    color:#CB9B46;
+}
+.productcard_txt{
+    background-color: #0A3641;
+    color:#ffffff;
+    padding:0px 10px;
+}
+.product_img{
+    width: 100%;
+}
+.h4_productcard{
+    color:#CB9B46;
+}
+
+.mp_sale_img{
+    background-image: url("../images/iso-republic-scenic-mountain-landscape-reflection.jpg");
+    background-size:cover; 
+    height: 500px;
+    max-width: 1000px;
+    margin:50px 200px;
+}
+.mp_sale_h4{
+    text-align: center;
+    font-size: 150px;
+    max-width: 1400px;
+    color: #ffffff;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    font-family: "oswald-font" Verdana, Geneva, Tahoma, sans-serif;
+    color:#ffffff;
+    background-color: #0A3641;
+    padding:0px 20px ;
 }
