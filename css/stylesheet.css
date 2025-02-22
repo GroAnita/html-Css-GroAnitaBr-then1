@@ -1,7 +1,92 @@
+@font-face {
+    font-family: "sf-pro-display";
+    src: url("../fonts/sf-pro-display/");
+}
 .oswald-font {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
   }
-  
+
+  /*header*/
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    border: solid 1px black;
+    font-family: "oswald-font" Verdana, Geneva, Tahoma, sans-serif;
+}
+.header img{
+    width: 200px;
+    flex:1;
+    
+}
+.nav {
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+
+.ul_nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex:1;
+    
+}
+
+.ul_nav li {
+    margin-right: 20px;
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    flex:1;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.header_icons button {
+    margin-left: 10px;
+}
+
+#men{
+    padding:5px;
+    font-size:32px;
+    font-family:sf-pro-display;
+}
+#women{
+    padding:5px;
+    font-size:32px;
+    font-family:sf-pro-display;
+    
+}
+#sale{
+    padding:5px;
+    font-size:32px;
+    font-family:sf-pro-display;
+}
+
+#men:hover{
+    color:#CB9B46;
+} 
+#women:hover{
+    color:#CB9B46;
+} 
+#sale:hover{
+    color:#CB9B46;
+}
+
+
+/*hero*/
+
+.hero_img{
+    background-image: url("../images/iso-republic-hiker-approaches-snow-capped-mountains-free-stock-photo.jpg");
+    background-size:cover; 
+    background-position: center; 
+    height: 70vh;
+    max-width: 1400px;
+}
