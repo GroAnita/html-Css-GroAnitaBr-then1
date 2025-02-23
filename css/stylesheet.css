@@ -1,12 +1,18 @@
 @font-face {
     font-family: "sf-pro-display";
-    src: url("../fonts/sf-pro-display/");
+    src: url("../fonts/sf-pro-display/") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 .oswald-font {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+  }
+  .content{
+    max-width:1400px;
+    margin: auto;
   }
 .body{
     color:#0A3641;
@@ -17,7 +23,7 @@
   .header {
     display: flex;
     max-width: 1400px;
-    font-family: "oswald-font" Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "oswald-font", Verdana, Geneva, Tahoma, sans-serif;
     color:#0A3641
 }
 .header img{
@@ -29,15 +35,18 @@
 .nav {
     display: flex;
     flex:1;
+    justify-content: center;
+    align-items: center;
+        
 }
 
 .ul_nav {
     display: flex;
     list-style: none;
-    justify-content: center;
     flex:1;
     color:#0A3641;
-    margin-left: 300px;
+    justify-content: center;
+    margin-left: 100px;
     
 }
 .ul_nav a{
@@ -50,15 +59,23 @@
 
 .ul_nav li {
     margin-right: 20px;
-    ;
+    text-align: center;;
 }
 
 .header_icons {
     display: flex;
-    align-items: center;
     flex:1;
+    align-items: center;
     justify-content: flex-end;
     margin-right: 20px;
+    max-width: 250px;
+    
+    
+}
+.icon{
+   display: flex;
+   max-width: 30px;
+   margin:15px;
 }
 
 .header_icons button {
@@ -121,6 +138,7 @@
     max-width: 300px;
     margin: 20px;
     align-items: center;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
     
    
     
@@ -137,6 +155,13 @@
     background-color: #0A3641;
     color:#ffffff;
     padding:0px 10px;
+    border-radius: 8px;
+    font-size: small;
+    
+}
+.h4product_card{
+    font-size: medium;
+    color:#CB9B46;
 }
 .product_img{
     width: 100%;
@@ -157,6 +182,8 @@
     font-size: 150px;
     max-width: 1400px;
     color: #ffffff;
+    -webkit-text-stroke: 4px #0A3641;
+   
 }
 .footer{
     display: flex;
@@ -167,4 +194,17 @@
     color:#ffffff;
     background-color: #0A3641;
     padding:0px 20px ;
+    text-align: center;;
+}
+.footer_img{
+    max-width: 100%;
+    flex:1;
+    margin:5px;
+    
+}
+.footer_imgsrc{
+    width: 100%;
+}
+.footer_div{
+    flex:1;
 }
