@@ -1,3 +1,6 @@
+html{
+    background-color: #ffffff;
+}
 @font-face {
     font-family: "sf-pro-display";
     src: url("../fonts/sf-pro-display/") format("opentype");
@@ -13,6 +16,8 @@
   .content{
     max-width:1400px;
     margin: auto;
+    background-color: #ffffff;
+    border:solid 5px #000000;
   }
 .body{
     color:#0A3641;
@@ -105,7 +110,7 @@
 /*hero*/
 
 .hero_img{
-    background-image: url("../images/iso-republic-hiker-approaches-snow-capped-mountains-free-stock-photo.jpg");
+    background-image: url("../images/heroimg.jpg");
     background-size:cover; 
     background-position: 10% 65%;
     height: 500px;
@@ -139,9 +144,6 @@
     margin: 20px;
     align-items: center;
     font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
-    
-   
-    
 }
 .price{ 
     color:white;
@@ -171,7 +173,7 @@
 }
 
 .mp_sale_img{
-    background-image: url("../images/iso-republic-scenic-mountain-landscape-reflection.jpg");
+    background-image: url("../images/sales_imglarge.jpg");
     background-size:cover; 
     height: 500px;
     max-width: 1000px;
@@ -207,4 +209,13 @@
 }
 .footer_div{
     flex:1;
+}
+.footer_some{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.icon_some{
+    margin:0px 10px;
 }
