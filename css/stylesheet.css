@@ -226,3 +226,81 @@ html{
 .icon_some{
     margin:0px 10px;
 }
+
+/*pinkjacket*/
+
+.product_section{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+
+    
+}
+.product_section > *{
+    flex:1;
+
+
+}
+#prod_img_large{
+    display: flex;
+    margin: auto;
+    border:solid 2px black;
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+.img_thumbnail{
+    display: flex;
+    justify-content: space-between,;
+    gap: 10px;
+    margin: 5px auto;
+    width: 50%;
+    height: auto;
+   
+    
+}
+
+.img_thumbnail img{
+    width: 100%;
+    object-fit: cover;
+    border:solid 2px black;
+}
+
+.cta{
+    background-color: red;
+    padding: 10px 100px;
+    color:white;
+    font-weight: bold;
+}
+.pink{
+    padding: 10px;
+    background-color: #E92675;
+    border-radius: 100%;
+}
+.blue{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 100%;
+    border-color: blue;
+}
+.green{
+    padding: 10px;
+    background-color: #678036;
+    border-radius: 100%;
+    border-color: #678036;
+}
+.grey{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 100%;
+    border-color: grey;
+}
+.size_btn{
+    padding: 5px;
+    background-color: white;
+    color:#0A3641;
+    border: solid 1px black;
+    margin: 5px;
+}
