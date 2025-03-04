@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 300px;
+    background-color:#0A3641 ;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+.card img{
+    width: 100%;
+    max-height: 350px;
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding:16px;
+    
+}
+.card-content h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-content p{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.card-content h3{
+    color: #CB9B46;
+    font-size: 18px;
+   
+}
+.color_choices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pink{
+   height: 15px;
+   width: 15px;
+   background-color: #EB2374;
+   border-radius: 50%;
+   display: inline-block;
+   margin:5px;
+}
+.blue{
+    height: 15px;
+    width: 15px;
+    background-color: #380dd3;
+    border-radius: 50%;
+    display: inline-block;
+    margin:5px;
+ }
+ .green{
+    height: 15px;
+    width: 15px;
+    background-color: #678036;
+    border-radius: 50%;
+    display: inline-block;
+    margin:5px;
+ }
+ .grey{
+    height: 15px;
+    width: 15px;
+    background-color: #6A6569;
+    border-radius: 50%;
+    display: inline-block;
+    margin:5px;
+ }
+ .orange{
+    height: 25px;
+    width: 25px;
+    background-color: #fcb900;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+ }
