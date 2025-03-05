@@ -19,10 +19,9 @@
     grid-row: span 4;
     border: 3px solid #CB9B46;
     border-radius: 5px;
-   
 }
 ul {
-    list-style-position: inside;
+    list-style-position: inside; /* helps putting the bullet points inside the box*/
  }
 .filter_content h4{
     color:#CB9B46;
