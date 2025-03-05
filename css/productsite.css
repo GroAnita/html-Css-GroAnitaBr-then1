@@ -20,6 +20,9 @@
     border: 3px solid #CB9B46;
     border-radius: 5px;
 }
+h2, h3, h4{
+    letter-spacing: 0,08em;
+}
 ul {
     list-style-position: inside; /* helps putting the bullet points inside the box*/
  }
