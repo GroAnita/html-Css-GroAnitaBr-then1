@@ -3,30 +3,68 @@
     padding:0px;
     box-sizing: border-box;
 }
+.heading_txt{
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+}
+.filter{
+    color:#CB9B46;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+.filter_content{
+    grid-column: 1;
+    grid-row: span 4;
+    border: 3px solid #CB9B46;
+    border-radius: 5px;
+   
+}
+ul {
+    list-style-position: inside;
+ }
+.filter_content h4{
+    color:#CB9B46;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.filter_category{
+    margin:50px 10px;
+}
+.filter_color{
+    margin:50px 10px;
+}
 .card_container{
-    display: flex;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
+    max-width: 1400px;
+    
+  
 }
 .card{
-    width: 300px;
-    background-color:#0A3641 ;
-    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
     overflow: hidden;
     margin: 20px;
+    
     
 }
 .card img{
     width: 100%;
-    max-height: 350px;
-
+    height: 200px;
+    object-fit:scale-down ;
 }
+
 .card-content{
     display: flex;
     flex-direction: column;
-    padding:16px;
-    
+    padding:5px 10px;
+    height: 180spx;
+    background-color: #0A3641;
+    border-radius: 5px;
+    margin: 0px;
 }
 .card-content h2{
     color: white;
@@ -49,42 +87,108 @@
     align-items: center;
 }
 .pink{
-   height: 15px;
-   width: 15px;
+   height: 20px;
+   width: 20px;
    background-color: #EB2374;
    border-radius: 50%;
    display: inline-block;
    margin:5px;
 }
 .blue{
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     background-color: #380dd3;
     border-radius: 50%;
     display: inline-block;
     margin:5px;
  }
  .green{
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     background-color: #678036;
     border-radius: 50%;
     display: inline-block;
     margin:5px;
  }
  .grey{
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     background-color: #6A6569;
     border-radius: 50%;
     display: inline-block;
     margin:5px;
  }
  .orange{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     background-color: #fcb900;
     border-radius: 50%;
     display: inline-block;
-    margin:10px;
+    margin:5px;
+ }
+ .red{
+    height: 30px;
+    width: 30px;
+    background-color: #e60a0a;
+    border-radius: 50%;
+    display: inline-block;
+    margin:5px;
+ }
+ .black{
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+    margin:5px;
+ }
+ .filter_size{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .size_s{
+    padding: 1px;
+    background-color: white;
+    color:#0A3641;
+    margin: 5px;
+    border: 1px solid #0A3641;
+    width: 25px;
+    text-align: center;
+ }
+ .size_xs{
+    padding: 1px;
+    background-color: white;
+    color:#0A3641;
+    margin: 5px;
+    border: 1px solid #0A3641;
+    width: 25px;
+    text-align: center;
+ }
+ .size_m{
+    padding: 1px;
+    background-color: white;
+    color:#0A3641;
+    margin: 5px;
+    border: 1px solid #0A3641;
+    width: 25px;
+    text-align: center;
+ }
+ .size_l{
+    padding: 1px;
+    background-color: white;
+    color:#0A3641;
+    margin: 5px;
+    border: 1px solid #0A3641;
+    width: 25px;
+    text-align: center;
+ }
+ .size_xl{
+    padding: 1px;
+    background-color: white;
+    color:#0A3641;
+    margin: 5px;
+    border: 1px solid #0A3641;
+    width: 25px;
+    text-align: center;
  }

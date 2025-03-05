@@ -4,7 +4,11 @@
 /* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
-
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 
 html{
     background-color: #ffffff;
