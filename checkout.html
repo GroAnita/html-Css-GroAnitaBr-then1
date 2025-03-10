@@ -11,8 +11,8 @@
 </head>
 <body>
     <main>
-        <div class="content">
-            <header class="header">
+    <div class="content">
+    <header class="header">
                <div class="logo">
                <a href="index.html">  <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img"></a> 
                </div>
@@ -33,7 +33,134 @@
                    </section>
                </div>
                </nav>
-            </header>
+    </header>
+            <H2 class="checkout_headline">Checkout</H2>
+        <section class="checkout">
+            
+            <div class="checkout_form_left">
+                <h3>We need some information</h3>
+                <form class="checkout_form">
+                    <fieldset>
+                    <legend>First Name</legend>
+                    <input type="text" id="fname" name="firstname">
+                </fieldset>
+                <fieldset>
+                    <legend>Last Name</legend>
+                    <input type="text" id="lname" name="lastname" >
+                </fieldset>   
+                <fieldset>
+                    <legend>E-mail</legend>
+                    <input type="email" id="email" name="email">
+                </fieldset>    
+                <fieldset>
+                    <legend>Delivery Address</legend>
+                    <input type="text" id="address" name="address" >
+                </fieldset>
+                <fieldset>
+                    <legend>City</legend>
+                    <input type="text" id="city" name="city"  >
+                </fieldset>    
+                <fieldset>
+                    <legend>Zip Code</legend>
+                    <input type="text" id="zip" name="zip">
+                </fieldset>    
+                <fieldset>
+                    <legend>Country</legend>
+                    <select id="country" name="Country" >
+                </fieldset>       
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                    
+                </form>
+        <div class="checkout_delivery">
+           <h3 class="checkout_h3">Delivery</h3>
+                <article class="checkout_radiobtn">
+                    <div class="radio-button1"> 
+                        <label class="checkout_label">
+                        <input type="radio" name="radio" checked="checked">
+                        <span class="label-visible">
+                             <p class="checkout_company">USPS</p>
+                        </span>
+                        </label>
+                        <p class="checkout_deliveryfee">Free delivery, over 20$</p>
+                    </div>
+                    <div class="radio-button2">
+                        <label class="checkout_label">
+                        <input type="radio" name="radio">
+                        <span class="label-visible">
+                           <p class="checkout_company">FedEx</p>
+                        </span>
+                        </label>
+                        <p class="checkout_deliveryfee">Free delivery, over 50$</p>
+                    </div>
+                </article>
+        </div>
+        </div>
+                <div class="checkout_products_right">
+                    <div class="checkout_products">
+                        <div class="checkout_product">
+                            <div class="checkout_img">
+                            <img src="images/products/stormrunner_pinkthumbnail.jpg" alt="pink_jacket_stormrunner" class="checkout_product_img"></div>
+                            <div class="checkout_product_txt">
+                                <h4 class="h4product_card">Active</h4>
+                                <h3 class="h3product_card">Stormrunner</h3>
+                                <p>Hot Pink</p>
+                                <p>Size: S</p>
+                                <p class="checkout_price"> $ 29.99</p>
+                            </div>
+                        </div>
+                        <div class="checkout_product">
+                            <div class="checkout_img">
+                            <img src="images/products/stormrunner_pinkthumbnail.jpg " alt="pink_jacket_stormrunner" class="checkout_product_img"></div>
+                            <div class="checkout_product_txt">
+                                <h4 class="h4product_card">Active</h4>
+                                <h3 class="h3product_card">Stormrunner</h3>
+                                <p>Hot Pink</p>
+                                <p>Size: S</p>
+                                <p class="checkout_price"> $ 29.99</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Quantity</p>
+                    <select name="quantity" id="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                      <section class="checkout_end">
+                        <p>Quantity</p>
+                        <p>Shipping</p>
+                    <div class="checkout_total">
+                        <h3>Total</h3>
+                        <p> $ 89.97</p>
+                    </div>
+                </section>
+        <section class="checkout_creditcard">
+            <div class="radio-button3">
+                <label class="checkout_labelcreditcard">
+                <input type="radio" name="radio">
+                <span class="label-visible">
+                   <p class="checkout_paymentmethod">Credit Card</p>
+                </span>
+                </label>
+            </div> 
+            <p class="checkout_deliveryfee"><i>Pay securely using Credit Card</i></p>
+            <form>
+            <fieldset>
+                <legend>Card Number</legend>
+                <input type="text" id="cardnumber" name="cardnumber" >
+            </fieldset>
+            </form>
+            <form>
+            <fieldset>
+              <legend>Name on Card</legend>  
+                <input type="text" id="name" name="names"></input>
+            </fieldset>
+        </section>  
+    </section>
             <footer class="footer"> 
                 <div class="footer_img"><img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc"></div>
                 <div class="footer_div">
