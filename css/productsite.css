@@ -87,68 +87,6 @@ ul {
     font-size: 18px;
    
 }
-/*color choices*/
-.color_choices{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.pink{
-   height: 20px;
-   width: 20px;
-   background-color: #EB2374;
-   border-radius: 50%;
-   display: inline-block;
-   margin:5px;
-}
-.blue{
-    height: 20px;
-    width: 20px;
-    background-color: #380dd3;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
- .green{
-    height: 20px;
-    width: 20px;
-    background-color: #678036;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
- .grey{
-    height: 20px;
-    width: 20px;
-    background-color: #6A6569;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
- .orange{
-    height: 30px;
-    width: 30px;
-    background-color: #fcb900;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
- .red{
-    height: 30px;
-    width: 30px;
-    background-color: #e60a0a;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
- .black{
-    height: 30px;
-    width: 30px;
-    background-color: #000000;
-    border-radius: 50%;
-    display: inline-block;
-    margin:5px;
- }
 
  /*Size choices*/
  .filter_size{
