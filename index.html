@@ -13,8 +13,8 @@
 <script src="https://kit.fontawesome.com/082ebaaf14.js" crossorigin="anonymous"></script>
     <title>Arainydaywebsite</title>
 </head>
-<div class="content">
 <body>
+<div class="content">
     <main>
         <div class="content">
             <header class="header1">
@@ -30,11 +30,11 @@
                  </ul>
                </nav>
                <section class="header_icons1">
-                   <icon class="fa-solid fa-magnifying-glass"></icon>
-                   <icon class="fa-solid fa-cart-shopping"></icon> 
-                   <icon class="fa-solid fa-home"></icon>
-                   <icon class="fa-solid fa-user"></icon>
-               </section>
+                <a href class="fa-solid fa-magnifying-glass"></a>
+                <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
+                <a href="index.html" class="fa-solid fa-home"> </a>
+                <a href="login" class="fa-solid fa-user"></a>
+            </section>
              </header> 
     <section>
         <div class="fp_hero">
@@ -47,11 +47,80 @@
         </div>
 
     </section>
-             <h2 class="fp_h2_hl">Our most Popular Products</h2>
-    <section class="fp_products">
+             <h2 class="fp_h2_hl">Best sellers</h2>
+    <section class="fp_productslider">
         <div class="fp_product">
         <div class="fp_productimg">
             <img src="images/products/stormrunnernobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1">
+            <input type="checkbox" id="heart_checkbox">
+            <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+        </div>  
+        <div class="fp_products_txt"> 
+            <div class="fp_cat_color">
+            <h4 class="fp_products_h4">Active</h4>
+            <div class="color_choices">  
+                <div class="pink1"></div>
+                <div class="blue1"></div>
+                <div class="green1"></div>
+                <div class="grey1"></div>
+            </div> 
+            </div>
+        <div class="fp_name_price">
+            <h2 class="fp_products_h2">Stormrunner</h2>
+         
+            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+        </div>
+        </div> 
+    </div>
+    <div class="fp_product">
+        <div class="fp_productimg">
+            <img src="images/products/stormrunnerblacknobg.png" alt="black jacket stormrunner" class="card_prod_img1">
+            <input type="checkbox" id="heart_checkbox">
+            <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+        </div>  
+        <div class="fp_products_txt"> 
+            <div class="fp_cat_color">
+            <h4 class="fp_products_h4">Active</h4>
+            <div class="color_choices">  
+                <div class="pink1"></div>
+                <div class="blue1"></div>
+                <div class="green1"></div>
+                <div class="grey1"></div>
+            </div> 
+            </div>
+        <div class="fp_name_price">
+            <h2 class="fp_products_h2">Stormrunner</h2>
+         
+            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+        </div>
+        </div> 
+    </div>
+    <div class="fp_product">
+        <div class="fp_productimg">
+            <a href="product-pages/pinkjacket.html"><img src="images/products/stormrunnernobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1"></a>
+            <input type="checkbox" id="heart_checkbox">
+            <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+        </div>  
+        <div class="fp_products_txt"> 
+            <div class="fp_cat_color">
+            <h4 class="fp_products_h4">Active</h4>
+            <div class="color_choices">  
+                <div class="pink1"></div>
+                <div class="blue1"></div>
+                <div class="green1"></div>
+                <div class="grey1"></div>
+            </div> 
+            </div>
+        <div class="fp_name_price">
+            <h2 class="fp_products_h2">Stormrunner</h2>
+         
+            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+        </div>
+        </div> 
+    </div>
+    <div class="fp_product">
+        <div class="fp_productimg">
+            <img src="images/products/stormrunnerbluenobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1">
             <input type="checkbox" id="heart_checkbox">
             <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
         </div>  
@@ -186,29 +255,36 @@
             <input type="email" id="email" autocomplete="on" placeholder="Enter your @email">
             <button>Subscribe</button>
         </div>
+      </section>  
     </main>
-    <footer class="footer"> 
-        <div class="footer_img"><img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc"></div>
+    <footer class="footer">
+        <div class="footer_img">
+            <img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
+        </div>
         <div class="footer_div">
             <h3>Customer Service</h3>
-            <p>Shipping</p>
-            <p>Return Policy</p>
-            <p>Track Order</p>
-            <p>Contact Us</p>
+            <a href="shipping.html"><p>Shipping</p></a>
+            <a href="termsandconditions.html"><p>Terms and conditions</p></a>
+            <a href="contact.html"><p>Contact Us</p></a>
+            <a href="aboutus.html"><p>About Us</p></a>
         </div>
-     
         <div class="footer_div">
             <section class="footer_some">
                 <h2>Follow us on Social Media</h2>
-            <div class="footer_some_icons">   
-             <div class="icon_some"> <img src="icon/icon_FB.svg"> </div>
-             <div class="icon_some"> <img src="icon/icon_instagram.svg"> </div>
-             <div class="icon_some"> <img src="icon/icon_snapchat.svg"> </div>
-            </div> 
+                <div class="footer_some_icons">
+                    <div class="icon_some">
+                        <img src="icon/icon_FB.svg">
+                    </div>
+                    <div class="icon_some">
+                        <img src="icon/icon_instagram.svg">
+                    </div>
+                    <div class="icon_some">
+                        <img src="icon/icon_snapchat.svg">
+                    </div>
+                </div>
             </section>
-            
         </div>
     </footer>
+</div>  
 </body>
-</div>
 </html>

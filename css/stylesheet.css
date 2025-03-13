@@ -9,6 +9,10 @@
     padding:0px;
     box-sizing: border-box;
 }
+* a{
+    text-decoration: none;
+    color:#fff
+}
 
 html{
     background-color: #ffffff;
@@ -23,7 +27,7 @@ html{
       "wdth" 100;
   }
 @font-face {
-    font-family: "sf-pro-display", sans-serif;
+    font-family: "sf-pro-display", "sans-serif";
     src: url("../fonts/sf-pro-display/") format("opentype");
     font-weight: normal;
     font-style: normal;
@@ -91,8 +95,9 @@ html{
     margin-right: 20px;
     max-width: 250px;
 
+
 }
-.header_icons1 i{
+.header_icons1 a{
     color:#0A3641 ;
 }
 .ul_nav a {
@@ -125,6 +130,7 @@ html{
     padding:0px 20px ;
     text-align: center;;
     margin-top: 20px;
+    padding:10px
 }
 .footer_img{
     max-width: 100%;
@@ -477,34 +483,52 @@ legend{
     margin: 20px 0px 10px 200px;
 }
 /*products*/
-.fp_products{
+  
+.fp_productslider{
     display: flex;
     max-width: 1000px;
-    gap: 1px;
+    gap: 10px;
     justify-content: center;
     margin:40px auto;
     align-items: end;
-    
-    
+    overflow-x:auto;
+    -webkit-overflow-scrolling: touch; 
+    scroll-snap-points-x: repeat(200px);
+    scroll-snap-type: x mandatory;
+}   
+.fp_productslider > div{
+    flex-shrink: 0;
+    width: 200px;
+    height: 100%;
 }
+.fp_products{
+    display: flex;
+    max-width: 1000px;
+    gap: 10px;
+    justify-content: center;
+    margin:40px auto;
+    align-items: end;
+
+} 
 .fp_product{
     display: flex;
     flex-direction: column;
     font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
     color: #0A3641;
     width: 200px;
-   
+    
 }
+
 .fp_product img{
     width: 100%;
     margin: 0px auto;
     border-radius: 8px 8px 0 0;
     background-color: #dae0e4;
 }
-#heart_checkbox,#heart_checkbox2, label{
+#heart_checkbox label{
     display: none;
 }
-.label::before {
+ .label::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     content: '\f004';
@@ -515,12 +539,7 @@ legend{
     content: '\f004';
     color:rgb(245, 2, 2);
   }
-  #heart_checkbox2:checked + label::before {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    content: '\f004';
-    color:rgb(245, 2, 2);
-  }
+  
 .fp_productimg{
     display:block;
     position: relative;
@@ -532,9 +551,6 @@ legend{
     color: #fff;
     transition: color 0.5s;
 }
-
-    
-
 .fp_products_txt{
     display: flex;
     flex-direction: column;
@@ -561,6 +577,12 @@ legend{
     font-family: "roboto-font", sans-serif;
     font-weight: 500;
 }
+.fp_cat_color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
 .fp_prod_prize1{
     flex: 1;
     font-family: "roboto-font", sans-serif;
@@ -568,17 +590,12 @@ legend{
     text-align: center;
     font-size: 0.9rem;
     font-weight: 300;
-    margin-left: 10px;;
-    
+    margin-left: 10px;
 }
-.fp_cat_color{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 200px;
-}
-.fp_products_h4{
-    flex: 1; 
+/*
+.fp_txt_p{
+    font-size: .5rem;
+    font-family: "roboto-font", sans-serif;
 }
 .fp_prod_prize1 i{
     color: #CB9B46;
@@ -590,10 +607,16 @@ legend{
     margin-top:5px;
     width: 200px;
 }
-.card_prod_img1{
+    .card_prod_column{
     position: relative;
     top:3px;
 }
+    */
+
+
+
+/*commercial*/
+
 .fp_sale{
     display: flex;
     max-width: 1000px;
@@ -692,6 +715,21 @@ legend{
     max-width: 100%;
     height: 400px;
   
+}
+.fp_sale_stayactive {
+    font-size: 4rem;
+    color: #048dfd;
+    text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5, 0 0 20px #00ffd5, 0 0 40px #00ffd5, 0 0 80px #00ffd5;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5, 0 0 20px #00ffd5, 0 0 40px #00ffd5, 0 0 80px #00ffd5;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
 }
 /*color choices*/
 .color_choices{
@@ -802,4 +840,121 @@ legend{
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "roboto-font", sans-serif;
+}
+/*about us*/
+.about_us{
+    text-align: left;
+    max-width: 800px;
+    margin:auto;
+}
+.about_us h3{
+    text-align: center;
+    font-size: 2rem;
+    color: #0A3641;
+    margin: 20px 0px;
+}
+.about_us h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0A3641;
+    margin: 20px 0px;
+}
+.about_images{
+    display: flex;
+    gap:20px;
+}
+.about_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_column img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+
+}
+/*contact us*/
+
+.contact_container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 20px;
+    background-color: rgb(239, 249, 245);
+    border:1px solid #0A3641;
+    
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+    
+}
+.contact_info p{
+    margin:10px 0
+}
+.contact_info i{
+    color: #0A3641;
+    margin: 0px 5px 0 0;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.contact_form textarea{
+    max-width: 600px;
+    height: 100px; 
+    background-color: rgb(239, 249, 245);
+} 
+.contact_form button{
+    background-color: #0A3641;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+#lastname, #firstname, #emailadd {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(239, 249, 245);
+}
+.contact_hl_h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #0A3641;
+    margin: 20px 0px;
+}
+
+/*terms and conditions*/
+.terms{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+.terms ul{
+    list-style-position: inside;
+}
+.terms h3{
+    font-size: 1.4rem;
+    padding:10px
+}
+.terms h1{
+    font-size: 2rem;
+}
+.terms p{
+    font-size: 1rem;
+    line-height: 1.5rem;
 }

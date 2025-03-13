@@ -11,83 +11,108 @@
 h2, h3, h4{
     letter-spacing: 0,08em;
 }
-/*filter menu*/
-.filter{
-    color:#CB9B46;
-    font-size: 1.5em;
-    margin-left: 10px;
-}
-.filter_content{
-    grid-column: 1;
-    grid-row: span 4;
-    border: 3px solid #CB9B46;
-    border-radius: 5px;
-}
 
-ul {
-    list-style-position: inside; /* helps putting the bullet points inside the box*/
- }
-.filter_content h4{
-    color:#CB9B46;
-    font-size: 1em;
-    margin-bottom: 20px;
-}
-.filter_category{
-    margin:50px 10px;
-}
-.filter_color{
-    margin:50px 10px;
-}
-
-
-/* Product cards*/
-.card_container{
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+/* outlet cards*/
+.outlet_products{
+    display: flex;
+    max-width: 1000px;
+    gap: 1px;
     justify-content: center;
-    max-width: 1400px; 
+    margin:40px auto;
+    align-items: end;
 }
-.card{
+.outlet_product{
     display: flex;
     flex-direction: column;
-    background-color:white;
-    overflow: hidden;
-    margin: 20px;  
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A3641;
+    width: 200px;
 }
-.card img{
+.outlet_productimg{
+    display:block;
+    position: relative;
+}
+.outlet_productimg label{
+    position:absolute;
+    top:10px;
+    right: 10px;
+    color: #fff;
+    transition: color 0.5s;
+}
+.outlet_name_price_sale{
+    flex: 1;
+    font-family: "roboto-font", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;   
+}
+.outlet_prod_img1{
+    position: relative;
+    top:3px;
+}
+.outlet_product img{
     width: 100%;
-    height: 200px;
-    object-fit:scale-down ;
+    margin: 0px auto;
+    border-radius: 8px 8px 0 0;
+    background-color: #dae0e4;
 }
-
-.card-content{
+.sale_prize{
+    flex: 1;
+    font-family: "roboto-font", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+}
+.sale_prize i{
+    color: #CB9B46;
+}
+.old_new_prize{
+    display: flex;
+    flex-direction: row;
+}
+.old_prize{
+    flex: 1;
+    font-family: "roboto-font", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+.outlet_products_txt{
     display: flex;
     flex-direction: column;
-    padding:5px 10px;
-    height: 180spx;
     background-color: #0A3641;
-    border-radius: 5px;
-    margin: 0px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
 }
 
-.card-content h2{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.card-content p{
-    color: white;
-    font-size: 13px;
-    margin-bottom: 10px;
-}
-
-.card-content h3{
+.outlet_products_txt h4{
+    font-size: 0.7rem;
     color: #CB9B46;
-    font-size: 18px;
-   
+    font-family: "roboto-font", sans-serif;
+    font-weight: 400;
+    
 }
-
+.outlet_products_txt h2{
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 500;
+}
+.outlet_cat_color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+.outlet_products_h4{
+    flex: 1; 
+}
  /*Size choices*/
  .filter_size{
     display:flex;
