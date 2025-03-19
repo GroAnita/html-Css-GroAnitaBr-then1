@@ -68,6 +68,7 @@ h2, h3, h4{
 }
 .sale_prize i{
     color: #CB9B46;
+    font-size: 0.9rem;
 }
 .old_new_prize{
     display: flex;
@@ -76,7 +77,7 @@ h2, h3, h4{
 .old_prize{
     flex: 1;
     font-family: "roboto-font", sans-serif;
-    color: #ffffff;
+    color: #ff5959;
     text-align: center;
     font-size: 0.9rem;
     font-weight: 300;
@@ -164,5 +165,314 @@ h2, h3, h4{
     width: 25px;
     text-align: center;
  }
+/*PJ section*/
+.pj_product{
+    display:flex;
+    max-width: 1000px;
+    gap: 1px;
+    margin:40px auto;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.pj_images{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A3641;
+    max-width: 400px;
+    align-items: center;
+}
 
- 
+.pj_images img{
+    max-width: 400px;
+    margin: 0px auto;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    
+}
+
+.pj_thumbnails{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    justify-content: center;
+    margin: 10px auto;
+}
+.pj_thumbnails img{
+    width: 65px;
+    border-radius: 8px;
+    border:1.5px solid #0A3641;
+}
+.pj_images_txt{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    background-color: #0A3641;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+}
+.pj_info{
+    display: flex;
+    flex-direction: column;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A3641;
+    max-width: 400px;
+    align-items: start;
+    background-color: #ffffff;
+}
+.pj_info h3{
+    font-size: 1rem;
+    color: #CB9B46;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 500;
+}
+.pj_info_price{
+   margin:10px auto;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+.pj_btn{
+    background-color: #ffa200;
+    color: #ffffff;
+    padding: 10px 60px;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+.pj_color_choices{
+    margin:10px auto;
+    
+}
+#pj_color_chosen{
+    font-size: 0.6rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 500;
+    margin:0px 0px 10px 0px;
+}
+.pink1_active{
+   border: 2px solid #ffffff;
+   
+ }
+ .pj_size{
+    display: flex;
+    margin: 5px auto;
+ }
+ .pj_sizebox{
+    border: 1px solid #0A3641;
+    padding:2px;
+    margin:3px;
+}
+#pj_info_qty{
+    margin:20px auto;
+}
+.pj_description{
+    display: flex;
+    flex-direction: column;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A3641;
+    max-width: 800px;
+    align-items: left;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin:auto
+}
+.pj_description h3{
+    font-size: 1.3rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 600;
+    margin:10px 0px
+}
+.pj_description p{
+    font-size: 1rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 300;
+    margin:10px 0px
+}
+.pj_description h2{
+    font-size: 1.7rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 800;
+    margin:10px 0px
+}
+.pj_list{
+    list-style: none;
+    margin:20px;
+}
+#pj_p_punchline{
+    font-size: 1.4rem;
+    color: #CB9B46;
+    font-family: "roboto-font", sans-serif;
+    font-weight:bold;
+    margin:10px 0px
+}
+.pj_reviews{
+    display: flex;
+    flex-direction: row;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A3641;
+    max-width: 800px;
+    align-items: left;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin:auto;
+    gap:50px;
+}
+
+.pj_reviews p{
+    font-size: .8rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 300;
+    margin:10px 0px;
+    
+}
+
+.pj_reviewer_img{
+    max-width: 50px;
+    background-color: #ffa200;
+    border-radius: 50%;
+}
+.pj_review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0px;
+    max-width: 200px;
+}
+#customer_reviewh2{
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    font-family: "roboto-font", sans-serif;
+    font-weight: 600;
+    margin:10px 0px;
+    text-align: center;
+}
+.pj_review_stars i{
+    color:#ffa200;
+    font-size: 0.8rem;
+}
+.article_number{
+    font-size: 0.8rem;
+    color: #0A3641;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin:0px 0px;
+}
+.pj_similarprod{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin:40px auto;
+    align-items: end;
+   
+    
+}
+.pj_similarprods h3{
+    font-size: 1.3rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 600;
+    margin:10px 0px;
+    text-align: center;
+}
+/*cart*/
+.cart_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.cart h2{
+    font-size: 1.3rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 600;
+    margin:10px 0px;
+    text-align: center;
+}
+.cart img{
+    max-width: 200px;
+    margin: 0px auto;
+    object-fit: cover;
+    border-radius: 4px;
+    
+}
+.cart_item{
+    margin:auto
+}
+.sucsess{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin:50px auto;
+}
+.sucsess h3{
+    font-size: 1.3rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 600;
+    margin:20px 0px;
+    text-align: center;
+}
+.sucsess h2{
+    font-size: 1.7rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 800;
+    margin:10px 0px;
+    text-align: center;
+}
+.sucsess p{
+    font-size: 1rem;
+    color: #0A3641;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 300;
+    margin:10px 0px;
+    text-align: center;
+}
+.some_iconsgreen{
+   display: flex; 
+   margin:20px auto;
+   
+}
+.sucsess_logo img{
+    max-width: 200px;
+}
+.sucsess_logo{
+    
+    margin: 50px auto;
+}
+.sucsess_table{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+.login_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin:200px auto 150px auto;
+    
+}
+.login_container img{
+    max-width: 80%;
+    margin: 50px auto;
+    object-fit: cover;
+}
+

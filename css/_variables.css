@@ -3,5 +3,9 @@
 
 :root {
   --color-primary: #0A3641;
-  --color-secondary: #1f1f1f;
+  --color-secondary: #ffffff;
+  --font-primary:"roboto-font", sans-serif;
+  --font-weight: 500;
+  --font-secondary: "oswald-font", sans-serif;
+  --font-weight-secondary: 400;
 }

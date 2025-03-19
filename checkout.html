@@ -7,33 +7,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <title>Arainydaywebsite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/082ebaaf14.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
 </head>
 <body>
     <main>
     <div class="content">
-    <header class="header">
-               <div class="logo">
-               <a href="index.html">  <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img"></a> 
-               </div>
-               <div class="nav_flex">
-               <nav class="nav">
-                   <ul class="ul_nav">
-                       <li id="men"><a href="productsmen.html">Men</a></li>
-                       <li id="women"><a href="productswomen.html">Women</a></li>
-                       <li id="sale"><a href="productssale.html">Sale</a></li>
-                   </ul>
-               </div>
-               <div class="icon_flex">
-                <section class="header_icons1">
-                    <a href class="fa-solid fa-magnifying-glass"></a>
-                    <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
-                    <a href="index.html" class="fa-solid fa-home"> </a>
-                    <a href="login" class="fa-solid fa-user"></a>
-                </section>
-               </div>
-               </nav>
-    </header>
+        <header class="header1">
+            <div class="logo1">
+            <a href="index.html"><img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1"></a> 
+            
+            </div>
+            <nav>
+              <ul class="header_nav1">
+                 <li><a href="productsmen.html">Men</a></li>
+                 <li><a href="productswomen.html">Women</a></li>
+                 <li><a href="productssale.html">Outlet</a></li>
+              </ul>
+            </nav>
+            
+            <section class="header_icons1">
+             <div class="search">
+             <input type="text" class="searchterm" placeholder="Search">
+             <button type="submit" class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+             </div>
+             <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
+             <a href="index.html" class="fa-solid fa-home"> </a>
+             <a href="login" class="fa-solid fa-user"></a>
+         </section>
+          </header> 
             <H2 class="checkout_headline">Checkout</H2>
         <section class="checkout">
             
@@ -68,9 +74,9 @@
                     <legend>Country</legend>
                     <select id="country" name="Country" >
                 </fieldset>       
-                      <option value="australia">Australia</option>
-                      <option value="canada">Canada</option>
                       <option value="usa">USA</option>
+                      <option value="canada">Canada</option>
+                      <option value="australia">Australia</option>
                     </select>
                     
                 </form>
@@ -79,7 +85,7 @@
                 <article class="checkout_radiobtn">
                     <div class="radio-button1"> 
                         <label class="checkout_label">
-                        <input type="radio" name="radio" checked="checked">
+                        <input type="radio" id="radio1" name="radio" checked="checked">
                         <span class="label-visible">
                              <p class="checkout_company">USPS</p>
                         </span>
@@ -88,7 +94,7 @@
                     </div>
                     <div class="radio-button2">
                         <label class="checkout_label">
-                        <input type="radio" name="radio">
+                        <input type="radio" id="radio2" name="radio">
                         <span class="label-visible">
                            <p class="checkout_company">FedEx</p>
                         </span>
@@ -111,17 +117,7 @@
                                 <p class="checkout_price"> $ 29.99</p>
                             </div>
                         </div>
-                        <div class="checkout_product">
-                            <div class="checkout_img">
-                            <img src="images/products/stormrunner_pinkthumbnail.jpg " alt="pink_jacket_stormrunner" class="checkout_product_img"></div>
-                            <div class="checkout_product_txt">
-                                <h4 class="h4product_card">Active</h4>
-                                <h3 class="h3product_card">Stormrunner</h3>
-                                <p>Hot Pink</p>
-                                <p>Size: S</p>
-                                <p class="checkout_price"> $ 29.99</p>
-                            </div>
-                        </div>
+                        
                     </div>
                     <p>Quantity</p>
                     <select name="quantity" id="quantity">
@@ -135,7 +131,7 @@
                         <p>Shipping</p>
                     <div class="checkout_total">
                         <h3>Total</h3>
-                        <p> $ 89.97</p>
+                        <p> $ 29.99</p>
                     </div>
                 </section>
         <section class="checkout_creditcard">
@@ -159,6 +155,7 @@
               <legend>Name on Card</legend>  
                 <input type="text" id="name" name="names"></input>
             </fieldset>
+            <a href="sucsess.html"><button class="cta">Confirm Payment</button></a>
         </section>  
     </section>
     <footer class="footer">

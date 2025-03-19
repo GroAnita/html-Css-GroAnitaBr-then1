@@ -11,59 +11,315 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/082ebaaf14.js" crossorigin="anonymous"></script>
-    <title>Arainydaywebsite</title>
+    <title>Stormrunner Pink jacket product site</title>
 </head>
 <body>
     <main>
         <div class="content">
             <header class="header1">
-               <div class="logo1">
-               <a href="index.html">  <img src="../images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1"></a> 
-               
-               </div>
-               <nav>
-                 <ul class="header_nav1">
-                    <li><a href="productsmen.html">Men</a></li>
-                    <li><a href="productswomen.html">Women</a></li>
-                    <li><a href="productssale.html">Outlet</a></li>
-                 </ul>
-               </nav>
-               <section class="header_icons1">
-                <a href class="fa-solid fa-magnifying-glass"></a>
-                <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
-                <a href="index.html" class="fa-solid fa-home"> </a>
-                <a href="login" class="fa-solid fa-user"></a>
-            </section>
-             </header> 
-   
-    <footer class="footer">
-        <div class="footer_img">
-            <img src="../images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
-        </div>
-        <div class="footer_div">
-            <h3>Customer Service</h3>
-            <a href="shipping.html"><p>Shipping</p></a>
-            <a href="termsandconditions.html"><p>Terms and conditions</p></a>
-            <a href="contact.html"><p>Contact Us</p></a>
-            <a href="aboutus.html"><p>About Us</p></a>
-        </div>
-        <div class="footer_div">
-            <section class="footer_some">
-                <h2>Follow us on Social Media</h2>
-                <div class="footer_some_icons">
-                    <div class="icon_some">
-                        <img src="../icon/icon_FB.svg">
+                <div class="logo1">
+                    <a href="../index.html"><img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1"></a> 
+                    
                     </div>
-                    <div class="icon_some">
-                        <img src="../icon/icon_instagram.svg">
+                <div class="hamburger"> 
+                    <input type="checkbox" id="menu-checkbox">
+                    <label for="menu-checkbox" class="fas fa-bars">
+                       
+                    </label>
+                
+                    <nav class="header_nav1">
+                         <a href="../productsmen.html">Men</a>
+                         <a href="../productswomen.html">Women</a>
+                         <a href="../productssale.html">Outlet</a>
+                    </nav>
+                </div>
+                
+                    <section class="header_icons1">
+                        <div class="search">
+                        <input type="text" class="searchterm" placeholder="Search">
+                        <button type="submit" class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                       
+                        </div>
+                        <a href="../cart.html" class="fa-solid fa-cart-shopping"></a> 
+                        <a href="../index.html" class="fa-solid fa-home"> </a>
+                        <a href="../login.html" class="fa-solid fa-user"></a>
+                    </section>
+                  
+            </header>  
+             <section class="pj_product">
+                <div class="pj_images">
+                    <div class="pj_lg_img">
+                        <img src="../images/products/stormrunnernobg.png" alt="stormrunner jacket in pink" class="pj_lg_imgsrc">
                     </div>
-                    <div class="icon_some">
-                        <img src="../icon/icon_snapchat.svg">
+                    <div class="pj_thumbnails">
+                        <div class="pj_thumb">
+                            <img src="../images/products/stormrunnernobg.png" alt="stormrunner jacket in pink" class="pj_thumb_img">
+                        </div> 
+                        <div class="pj_thumb">
+                            <img src="../images/products/stormrunnernobg.png" alt="stormrunner jacket in pink" class="pj_thumb_img">
+                        </div> 
+                        <div class="pj_thumb">
+                            <img src="../images/products/stormrunnernobg.png" alt="stormrunner jacket in pink" class="pj_thumb_img">
+                        </div>  
+                        <div class="pj_thumb">
+                            <img src="../images/products/stormrunnernobg.png" alt="stormrunner jacket in pink" class="pj_thumb_img">
+                        </div> 
+                        
                     </div>
                 </div>
-            </section>
+                <div class="pj_info">
+                    <h3>Active</h3>
+                    <h2>Stormrunner</h2>
+                    <p class="article_number">Art nr: 12345</p>
+                    <div class="pj_review_stars">
+                        <i class="fa-solid fa-star"></i>   
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="pj_info_price">$29.99</p>
+                    <div class="pj_color_choices">
+                        <div class="pink1 pink1_active"></div>
+                        <div class="blue1"></div>
+                        <div class="green1"></div>  
+                        <div class="black"></div>
+                        <p id="pj_color_chosen">Hot Pink</p>
+
+                    </div>
+                    <p class="pj_size_p">
+                        Size:</p>
+                    <div class="pj_size">
+                    
+                        <div class="pj_sizebox">XS</div>
+                        <div class="pj_sizebox">S</div>
+                        <div class="pj_sizebox">M</div>
+                        <div class="pj_sizebox">L</div>
+                        <div class="pj_sizebox">XL</div>
+                     
+                    </div>
+                    <p id="pj_info_qty">Quantity: 1</p>
+                    <button class="cta">Add to Cart</button>
+                </div>
+             </section>
+             <section class="pj_description">
+        
+        <h2>Stormrunner: Built for Speed, Engineered for the Elements</h2>
+        <p>When the rain starts falling, the Stormrunner keeps you moving. Designed for athletes, outdoor enthusiasts, and anyone who refuses to let the weather slow them down, this high-performance rain jacket delivers waterproof protection without sacrificing breathability or mobility. Whether you're running through city streets, trekking rugged trails, or cycling in unpredictable conditions, the Stormrunner is your go-to shield against wind and rain.</p>
+        
+        <h3>Uncompromising Protection, Unmatched Comfort</h3>
+       <p></p> Crafted from advanced waterproof yet breathable fabric, the Stormrunner keeps moisture out while allowing heat and sweat to escape—so you stay dry inside and out. Fully sealed seams prevent leaks, while the lightweight, flexible design ensures freedom of movement for high-intensity activities.</p>
+        
+    <h3>Designed for Active Lifestyles</h3>
+        <p>Every feature of the Stormrunner is built with movement in mind. The ergonomic fit provides full range of motion, while the adjustable hood, cuffs, and hem allow you to customize your coverage. Reflective detailing enhances visibility in low-light conditions, keeping you safe during early morning runs or late-night rides.</p>
+        
+    <h3>Key Features:</h3>
+    <ul class="pj_list">
+        <li>&check;100% Waterproof & Windproof – Stay protected from even the harshest storms.</li>
+        <li>&check;Breathable & Lightweight – No overheating, no unnecessary bulk.</li>
+        <li>&check;Adjustable Fit – Hood, cuffs, and hem adapt to your needs.</li>
+        <li>&check;Reflective Elements – Be seen in low-light conditions.</li>
+        <li>&check;Packable & Travel-Friendly – Folds down easily for on-the-go storage.</li>
+    </ul>
+        
+        <h3>Never Let the Weather Slow You Down</h3>
+        <p>The Stormrunner is built for those who push limits, rain or shine. Whether you're chasing personal bests or exploring the unknown, this versatile, high-performance rain jacket ensures you're always ready for the next challenge.</p>
+        
+        <p id="pj_p_punchline">Storms can’t stop you. Run through them with Stormrunner.</p>
+</section>
+            <h2 id="customer_reviewh2">Customer Reviews</h2>
+    <section class="pj_reviews">
+    
+        <div class="pj_review">
+            <div class="pj_reviewer">
+                <img src="../images/products/stormrunnerblacknobg.png" alt="reviewer1" class="pj_reviewer_img">
+                <p>John Doe</p>
+            </div>
+            <div class="pj_review_stars">
+                <i class="fa-solid fa-star"></i>   
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="pj_review_text">
+                <p>"I've been running in the Stormrunner for a month now, and it's been a game-changer. No more soggy clothes, no more overheating. This jacket is the real deal."</p>
+            </div>
         </div>
-    </footer>
-</div>  
+        <div class="pj_review">
+            <div class="pj_reviewer">
+                <img src="../images/products/stormrunnernobg.png" alt="reviewer2" class="pj_reviewer_img">
+                <p>Jane Smith</p>
+            </div>
+            <div class="pj_review_stars">
+                <i class="fa-solid fa-star"></i>   
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <div class="pj_review_text">
+                <p>"I'm a cyclist, and I've tried a lot of rain jackets. The Stormrunner is hands-down the best I've ever worn. It's lightweight, breathable, and keeps me dry in the worst downpours. Plus, the pink color is a nice touch!"</p>
+            </div>
+        </div>
+        <div class="pj_review">
+            <div class="pj_reviewer">
+                <img src="../images/products/stormrunnerbluenobg.png" alt="reviewer3" class="pj_reviewer_img">
+                <p>Ola Nordmann</p>
+            </div>
+            <div class="pj_review_stars">
+                <i class="fa-solid fa-star"></i>   
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+            <div class="pj_review_text">
+                <p>"I'm a trail runner, and I need gear that can keep up with me. The Stormrunner is perfect for my needs. It's durable, comfortable, and keeps me dry in all conditions. I highly recommend it!"</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pj_similarprods">
+        <h3>Similar Products</h3>
+        <div class="pj_similarprod">
+        <div class="fp_product">
+            <div class="fp_productimg">
+                <img src="../images/products/aquaforceyellownobg.png" alt="Aquaforce everyday jacket" class="card_prod_img1">
+                <input type="checkbox" id="heart_checkbox">
+                <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+            </div>  
+            <div class="fp_products_txt"> 
+                <div class="fp_cat_color">
+                <h4 class="fp_products_h4">Everyday</h4>
+                <div class="color_choices">  
+                    <div class="blue1"></div>
+                    <div class="green1"></div>
+                    <div class="grey1"></div>
+                    
+                </div> 
+                </div>
+            <div class="fp_name_price">
+                <h2 class="fp_products_h2">Aquaforce</h2>
+             
+                <p class="fp_prod_prize1">$129.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+            </div>
+            </div> 
+        </div>
+        <div class="fp_product">
+            <div class="fp_productimg">
+                <img src="../images/products/elementxpinknobg.png" alt="ElementX active running jacket" class="card_prod_img1">
+                <input type="checkbox" id="heart_checkbox">
+                <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+            </div>  
+            <div class="fp_products_txt"> 
+                <div class="fp_cat_color">
+                <h4 class="fp_products_h4">Active</h4>
+                <div class="color_choices">  
+                    <div class="blue1"></div>
+                    <div class="pink1"></div>
+                    <div class="grey1"></div>
+                    
+                </div> 
+                </div>
+            <div class="fp_name_price">
+                <h2 class="fp_products_h2">ElementX</h2>
+             
+                <p class="fp_prod_prize1">$89.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+            </div>
+            </div> 
+        </div> 
+        <div class="fp_product">
+            <div class="fp_productimg">
+                <img src="../images/products/polarflexpinknobg.png" alt="Polarflex extreme jacket for extreme weather in pink" class="card_prod_img1">
+                <input type="checkbox" id="heart_checkbox">
+                <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+            </div>  
+            <div class="fp_products_txt"> 
+                <div class="fp_cat_color">
+                <h4 class="fp_products_h4">Extreme</h4>
+                <div class="color_choices">  
+                    <div class="blue1"></div>
+                    <div class="pink1"></div>
+                    <div class="grey1"></div>
+                    
+                </div> 
+                </div>
+            <div class="fp_name_price">
+                <h2 class="fp_products_h2">PolarFlex</h2>
+             
+                <p class="fp_prod_prize1">$169.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+            </div>
+            </div> 
+        </div> 
+
+        <div class="fp_product">
+            <div class="fp_productimg">
+                <img src="../images/products/polarflexpinknobg.png" alt="Polarflex extreme jacket for extreme weather in pink" class="card_prod_img1">
+                <input type="checkbox" id="heart_checkbox">
+                <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
+            </div>  
+            <div class="fp_products_txt"> 
+                <div class="fp_cat_color">
+                <h4 class="fp_products_h4">Extreme</h4>
+                <div class="color_choices">  
+                    <div class="blue1"></div>
+                    <div class="pink1"></div>
+                    <div class="grey1"></div>
+                    
+                </div> 
+                </div>
+            <div class="fp_name_price">
+                <h2 class="fp_products_h2">PolarFlex</h2>
+             
+                <p class="fp_prod_prize1">$169.99 <i class="fa-solid fa-cart-shopping"></i> </p>
+            </div>
+            </div> 
+        </div> 
+    </div>  
+    </section>
+   </section>
+   <section class="fp_newsletter">
+    <div class="fp_newsletter_txt">
+        <h2>Join our Newsletter</h2>
+        <p>Sign up for exclusive news and offers</p>
+    </div>
+    <div class="fp_newsletter_input">
+        <input type="email" id="email" autocomplete="on" placeholder="Enter your @email">
+        <button>Subscribe</button>
+    </div>
+  </section>  
+  <footer class="footer">
+    <div class="footer_img">
+        <img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
+    </div>
+    <div class="footer_div">
+    <div class="footer_links">
+        <h3>Customer Service</h3>
+        <a href="shipping.html"><p>Shipping</p></a>
+        <a href="termsandconditions.html"><p>Terms and conditions</p></a>
+        <a href="contact.html"><p>Contact Us</p></a>
+        <a href="aboutus.html"><p>About Us</p></a>
+    </div>
+   
+        <section class="footer_some">
+            
+            <h2>Follow us on Social Media</h2>
+            <div class="footer_some_icons">
+                <div class="icon_some">
+                    <img src="../icon/icon_FB.svg">
+                </div>
+                <div class="icon_some">
+                    <img src="../icon/icon_instagram.svg">
+                </div>
+                <div class="icon_some">
+                    <img src="../icon/icon_snapchat.svg">
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+</div>
+</main> 
 </body>
 </html>
