@@ -235,7 +235,7 @@ h2, h3, h4{
    font-weight: 500;
 }
 .pj_btn{
-    background-color: #ffa200;
+    background-color: #ff0800;
     color: #ffffff;
     padding: 10px 60px;
     margin: 50px auto;
@@ -312,19 +312,7 @@ h2, h3, h4{
     font-weight:bold;
     margin:10px 0px
 }
-.pj_reviews{
-    display: flex;
-    flex-direction: row;
-    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
-    color: #0A3641;
-    max-width: 800px;
-    align-items: left;
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 8px;
-    margin:auto;
-    gap:50px;
-}
+
 
 .pj_reviews p{
     font-size: .8rem;
@@ -366,16 +354,7 @@ h2, h3, h4{
     font-weight: 300;
     margin:0px 0px;
 }
-.pj_similarprod{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    margin:40px auto;
-    align-items: end;
-   
-    
-}
+
 .pj_similarprods h3{
     font-size: 1.3rem;
     color: #0A3641;
@@ -420,6 +399,7 @@ h2, h3, h4{
     flex-direction: column;
     max-width: 800px;
     margin:50px auto;
+    padding: 10px;
 }
 .sucsess h3{
     font-size: 1.3rem;

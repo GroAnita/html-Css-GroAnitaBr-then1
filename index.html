@@ -27,6 +27,7 @@
                     <label for="menu-checkbox" class="fas fa-bars">
                        
                     </label>
+                    
                 
                     <nav class="header_nav1">
                          <a href="productsmen.html">Men</a>
@@ -34,13 +35,16 @@
                          <a href="productssale.html">Outlet</a>
                     </nav>
                 </div>
+                <div class="mobile_logo">
+                    <a href="index.html"> <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
+                    </a>
+                 </div>
                 
                     <section class="header_icons1">
                         <div class="search">
-                        <input type="text" class="searchterm" placeholder="Search">
+                        <input type="text" class="searchterm" id="search" placeholder="search">
                         <button type="submit" class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                       
-                        </div>
+                       </div>
                         <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
                         <a href="index.html" class="fa-solid fa-home"> </a>
                         <a href="login.html" class="fa-solid fa-user"></a>
@@ -62,7 +66,8 @@
     <section class="fp_productslider">
         <div class="fp_product">
         <div class="fp_productimg">
-            <img src="images/products/stormrunnernobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1">
+           <a href="product-pages/pinkjacket.html"> <img src="images/products/stormrunnernobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1">
+           </a>
             <input type="checkbox" id="heart_checkbox">
             <label for="heart_checkbox" class="fa-solid fa-heart"></label> 
         </div>  
@@ -245,16 +250,13 @@
     </section>
     <section class="fp_sale">
         <div class="fp_sale_img">
-            <a href="productssale.html"><button class="fp_sale_btn">Shop Sale</button></a>
-            <div class="fp_sale_txt">
+            <a href="productssale.html" id="prod_sale_imglink"> <div class="fp_sale_txt">
             <h1>Spring sale</h1>
             <p>up to 25% off til april 15th</p>
-            </div>
+            </div></a>
         </div>
         <div class="fp_sale_pr">
             <h2 class="fp_sale_stayactive">Stay Active</h2>
-            <button class="fp_sale_wmbtn">Women</button>
-            <button class="fp_sale_mbtn">Men</button>
         </div>
     </section>
     <section class="fp_newsletter">
@@ -263,10 +265,10 @@
             <p>Sign up for exclusive news and offers</p>
         </div>
         <div class="fp_newsletter_input">
-            <input type="email" id="email" autocomplete="on" placeholder="Enter your @email">
-            <button>Subscribe</button>
+            <input type="email" id="emailnewsletter" autocomplete="on" placeholder="Enter your @email">
+           <a href="../login.html"> <button>Subscribe</button></a>
         </div>
-      </section>  
+      </section> 
     </main>
     <footer class="footer">
         <div class="footer_img">
@@ -286,13 +288,13 @@
                 <h2>Follow us on Social Media</h2>
                 <div class="footer_some_icons">
                     <div class="icon_some">
-                        <img src="icon/icon_FB.svg">
+                       <a href="http://www.facebook.com"> <img src="icon/icon_FB.svg"></a>
                     </div>
                     <div class="icon_some">
-                        <img src="icon/icon_instagram.svg">
+                       <a href="http://www.instagram.com"><img src="icon/icon_instagram.svg"></a>
                     </div>
                     <div class="icon_some">
-                        <img src="icon/icon_snapchat.svg">
+                       <a href="http://www.snapchat.com"> <img src="icon/icon_snapchat.svg"></a>
                     </div>
                 </div>
             </section>

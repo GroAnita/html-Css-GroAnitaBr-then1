@@ -5,7 +5,15 @@
   --color-primary: #0A3641;
   --color-secondary: #ffffff;
   --font-primary:"roboto-font", sans-serif;
-  --font-weight: 500;
+  --font-weight-primary: 500;
   --font-secondary: "oswald-font", sans-serif;
   --font-weight-secondary: 400;
+  --font-sizemobile-li:0.7rem;
+  --font-sizemobile-h4:0.9rem;
+  --font-sizemobile-h3:1rem;
+  --font-sizemobile-h2:1.1rem;
+  --font-sizemobile-p:0.7rem;
+  --font-sizemobile-h1:1.3rem;
+  
 }
+
