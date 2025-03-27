@@ -2,7 +2,7 @@
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
-@import url("../css/_variables.css");
+@import url("../css/variables.css");
 /* Feel free to add as many of these imports as you need */
 @import url("../css/productsite.css");
 @import url("../css/mobilemedia.css");
