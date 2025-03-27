@@ -130,7 +130,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        background-color: #f99f03;
+        background-color: #d18602;
         color: var(--color-secondary);
         border-radius: 8px;
         max-width: 600px;
@@ -411,7 +411,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #f99f03;
+        background-color: #d18602;
         color: var(--color-secondary);
         padding: 20px;
         border-radius: 8px;
