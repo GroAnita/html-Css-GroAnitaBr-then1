@@ -479,21 +479,7 @@ legend{
     border-radius: 8px 8px 0 0;
     background-color: #dae0e4;
     display: block;
-}
-#heart_checkbox,label{
-    display: none;
-}
-    label::before {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    content: '\f004';
-    cursor: pointer;
-  }
-  #heart_checkbox:checked + label::before {
-    font-weight: 900;
-    color:rgb(245, 2, 2);
-  }
-  
+} 
 .fp_productimg{
     position: relative;
 }
