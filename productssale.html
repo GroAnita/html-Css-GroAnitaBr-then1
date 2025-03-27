@@ -16,35 +16,40 @@
       <div class="content">
         <header class="header1">
             <div class="logo1">
-                <a href="index.html"><img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1">
+                <a href="index.html">
+                    <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1">
                 </a> 
             </div>
             <div class="hamburger"> 
                 <input type="checkbox" id="menu-checkbox">
-                <label for="menu-checkbox" class="fas fa-bars"> 
+                <label for="menu-checkbox" class="fas fa-bars" aria-label="hamburgermenu for mobile users"> 
                 </label>
-                <nav class="header_nav1">
+              <nav class="header_nav1">
                      <a href="productsmen.html">Men</a>
                      <a href="productswomen.html">Women</a>
                      <a href="productssale.html">Outlet</a>
-                </nav>
+              </nav>
             </div>
             <div class="mobile_logo">
-                <a href="index.html"> <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
+                <a href="index.html"> 
+                    <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
                 </a>
             </div>
             <section class="header_icons1">
                 <div class="search">
-                    <input type="text" class="searchterm" placeholder="Search">
-                    <button type="submit" class="searchbtn">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                    <label for="search" class="search" aria-label="search field">
+                    <input type="text" class="searchterm" id="search" placeholder="search">
+                    <a href="login.html" aria-label="search button">
+                    <button type="submit" class="searchbtn" aria-label="search button">
+                        <i class="fa-solid fa-magnifying-glass" aria-label="searchfield hidden in mobile"></i>
                     </button>
+                    </a>
                 </div>
-                    <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
-                    <a href="index.html" class="fa-solid fa-home"> </a>
-                    <a href="login.html" class="fa-solid fa-user"></a>
-            </section> 
-        </header>   
+                    <a href="cart.html" class="fa-solid fa-cart-shopping" aria-label="cart icon"></a> 
+                    <a href="index.html" class="fa-solid fa-home" aria-label="home icon"> </a>
+                    <a href="login.html" class="fa-solid fa-user" aria-label="login icon"></a>
+            </section>
+        </header>  
         <h2 class="heading_txt">Outlet</h2>
         <section class="outlet_products">
             <div class="outlet_product">
@@ -312,13 +317,14 @@
                 <p>Sign up for exclusive news and offers</p>
             </div>
             <div class="fp_newsletter_input">
-                <input type="email" id="emailnewsletter" autocomplete="on" placeholder="Enter your @email">
-                <a href="../login.html"> <button>Subscribe</button></a>
+                <input type="email" id="emailnewsletter" autocomplete="on" placeholder="Enter your @email" aria-label="email field">
+                <a href="../login.html"> <button aria-label="subscribe button">Subscribe</button>
+                </a>
             </div>
         </section>
         <footer class="footer">
             <div class="footer_img">
-                <img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
+                <img src="images/PushingtheComfortZone.svg" alt="pushing the comfort zone slogan" class="footer_imgsrc">
             </div>
             <div class="footer_div">
             <div class="footer_links">
@@ -332,13 +338,13 @@
                 <h2>Follow us on Social Media</h2>
                 <div class="footer_some_icons">
                     <div class="icon_some">
-                        <a href="http://www.facebook.com"> <img src="icon/icon_FB.svg"></a>
+                        <a href="http://www.facebook.com"> <img src="icon/icon_FB.svg" alt="facebook icon"></a>
                     </div>
                     <div class="icon_some">
-                        <a href="http://www.instagram.com"><img src="icon/icon_instagram.svg"></a>
+                        <a href="http://www.instagram.com"><img src="icon/icon_instagram.svg" alt="instagram icon"></a>
                     </div>
                     <div class="icon_some">
-                        <a href="http://www.snapchat.com"> <img src="icon/icon_snapchat.svg"></a>
+                        <a href="http://www.snapchat.com"> <img src="icon/icon_snapchat.svg" alt="snapchat icon"></a>
                     </div>
                 </div>
             </section>
