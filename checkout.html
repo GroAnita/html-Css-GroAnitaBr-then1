@@ -1,133 +1,126 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/stylesheet.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/082ebaaf14.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/082ebaaf14.js" crossorigin="anonymous"></script>
     <title>Checkout</title>
 </head>
 <body>
     <main>
-    <div class="content">
-        <header class="header1">
-            <div class="logo1">
-                <a href="index.html"><img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1"></a> 
-                
+        <div class="content">
+            <header class="header1">
+                <div class="logo1">
+                    <a href="index.html">
+                        <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_img1">
+                    </a>
                 </div>
-            <div class="hamburger"> 
-                <input type="checkbox" id="menu-checkbox">
-                <label for="menu-checkbox" class="fas fa-bars">
-                   
-                </label>
-                
-            
-                <nav class="header_nav1">
-                     <a href="productsmen.html">Men</a>
-                     <a href="productswomen.html">Women</a>
-                     <a href="productssale.html">Outlet</a>
-                </nav>
-            </div>
-            <div class="mobile_logo">
-                <a href="index.html"> <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
-                </a>
-             </div>
-            
+                <div class="hamburger">
+                    <input type="checkbox" id="menu-checkbox">
+                    <label for="menu-checkbox" class="fas fa-bars"></label>
+                    <nav class="header_nav1">
+                        <a href="productsmen.html">Men</a>
+                        <a href="productswomen.html">Women</a>
+                        <a href="productssale.html">Outlet</a>
+                    </nav>
+                </div>
+                <div class="mobile_logo">
+                    <a href="index.html">
+                        <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
+                    </a>
+                </div>
                 <section class="header_icons1">
                     <div class="search">
-                    <input type="text" class="searchterm" name="search" placeholder="Search">
-                    <button type="submit" class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                   </div>
-                    <a href="cart.html" class="fa-solid fa-cart-shopping"></a> 
-                    <a href="index.html" class="fa-solid fa-home"> </a>
+                        <input type="text" class="searchterm" name="search" placeholder="Search">
+                        <button type="submit" class="searchbtn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <a href="cart.html" class="fa-solid fa-cart-shopping"></a>
+                    <a href="index.html" class="fa-solid fa-home"></a>
                     <a href="login.html" class="fa-solid fa-user"></a>
                 </section>
-              
-        </header>  
-            <H2 class="checkout_headline">Checkout</H2>
-        <section class="checkout">
-            
-            <div class="checkout_form_left">
-                <h3>We need some information</h3>
-                <form class="checkout_form">
-                    <fieldset>
-                    <legend>First Name</legend>
-                    <input type="text" id="fname" name="firstname" autocomplete="on">
-                </fieldset>
-                <fieldset>
-                    <legend>Last Name</legend>
-                    <input type="text" id="lname" name="lastname" autocomplete="on" >
-                </fieldset>   
-                <fieldset>
-                    <legend>E-mail</legend>
-                    <input type="email" id="email" name="email" autocomplete="on">
-                </fieldset>    
-                <fieldset>
-                    <legend>Delivery Address</legend>
-                    <input type="text" id="address" name="address" autocomplete="on">
-                </fieldset>
-                <fieldset>
-                    <legend>City</legend>
-                    <input type="text" id="city" name="city" autocomplete="on"  >
-                </fieldset>    
-                <fieldset>
-                    <legend>Zip Code</legend>
-                    <input type="text" id="zip" name="zip">
-                </fieldset>    
-                 
-                    <legend>Country</legend>
-                    <select id="country" name="Country" >
-                       
-                      <option value="usa">USA</option>
-                      <option value="canada">Canada</option>
-                      <option value="australia">Australia</option>
-                    </select>
-                    
-                </form>
-        <div class="checkout_delivery">
-           <h3 class="checkout_h3">Delivery</h3>
-                <article class="checkout_radiobtn">
-                    <div class="radio-button1"> 
-                        <label class="checkout_label">
-                        <input type="radio" id="radio1" name="radio" checked="checked">
-                        <span class="label-visible">
-                             <p class="checkout_company">USPS</p>
-                        </span>
-                        </label>
-                        <p class="checkout_deliveryfee">Free delivery, over 20$</p>
+            </header>
+            <h2 class="checkout_headline">Checkout</h2>
+            <section class="checkout">
+                <div class="checkout_form_left">
+                    <h3>We need some information</h3>
+                    <form class="checkout_form">
+                        <fieldset>
+                            <legend>First Name</legend>
+                            <input type="text" id="fname" name="firstname" autocomplete="on">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Last Name</legend>
+                            <input type="text" id="lname" name="lastname" autocomplete="on">
+                        </fieldset>
+                        <fieldset>
+                            <legend>E-mail</legend>
+                            <input type="email" id="email" name="email" autocomplete="on">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Delivery Address</legend>
+                            <input type="text" id="address" name="address" autocomplete="on">
+                        </fieldset>
+                        <fieldset>
+                            <legend>City</legend>
+                            <input type="text" id="city" name="city" autocomplete="on">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Zip Code</legend>
+                            <input type="text" id="zip" name="zip">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Country</legend>
+                            <select id="country" name="Country">
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                        </fieldset>
+                    </form>
+                    <div class="checkout_delivery">
+                        <h3 class="checkout_h3">Delivery</h3>
+                        <article class="checkout_radiobtn">
+                            <div class="radio-button1">
+                                <label class="checkout_label">
+                                    <input type="radio" id="radio1" name="radio" checked="checked">
+                                    <span class="label-visible">
+                                        <p class="checkout_company">USPS</p>
+                                    </span>
+                                </label>
+                                <p class="checkout_deliveryfee">Free delivery, over $20</p>
+                            </div>
+                            <div class="radio-button2">
+                                <label class="checkout_label">
+                                    <input type="radio" id="radio2" name="radio">
+                                    <span class="label-visible">
+                                        <p class="checkout_company">FedEx</p>
+                                    </span>
+                                </label>
+                                <p class="checkout_deliveryfee">Free delivery, over $50</p>
+                            </div>
+                        </article>
                     </div>
-                    <div class="radio-button2">
-                        <label class="checkout_label">
-                        <input type="radio" id="radio2" name="radio">
-                        <span class="label-visible">
-                           <p class="checkout_company">FedEx</p>
-                        </span>
-                        </label>
-                        <p class="checkout_deliveryfee">Free delivery, over 50$</p>
-                    </div>
-                </article>
-        </div>
-        </div>
+                </div>
                 <div class="checkout_products_right">
                     <div class="checkout_products">
                         <div class="checkout_product">
                             <div class="checkout_img">
-                            <img src="images/products/stormrunner_pinkthumbnail.jpg" alt="pink_jacket_stormrunner" class="checkout_product_img"></div>
+                                <img src="images/products/stormrunner_pinkthumbnail.jpg" alt="pink_jacket_stormrunner" class="checkout_product_img">
+                            </div>
                             <div class="checkout_product_txt">
                                 <h4 class="h4product_card">Active</h4>
                                 <h3 class="h3product_card">Stormrunner</h3>
                                 <p>Hot Pink</p>
                                 <p>Size: S</p>
-                                <p class="checkout_price"> $ 29.99</p>
+                                <p class="checkout_price">$29.99</p>
                             </div>
                         </div>
-                        
                     </div>
                     <p>Quantity</p>
                     <select name="quantity" id="quantity">
@@ -135,69 +128,80 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                      </select>
-                      <section class="checkout_end">
+                    </select>
+                    <section class="checkout_end">
                         <p>Quantity</p>
                         <p>Shipping</p>
-                    <div class="checkout_total">
-                        <h3>Total</h3>
-                        <p> $ 29.99</p>
-                    </div>
-                </section>
-        <section class="checkout_creditcard">
-            <div class="radio-button3">
-                <label class="checkout_labelcreditcard">
-                <input type="radio" name="radio">
-                <span class="label-visible">
-                   <p class="checkout_paymentmethod">Credit Card</p>
-                </span>
-                </label>
-            </div> 
-            <p class="checkout_deliveryfee"><i>Pay securely using Credit Card</i></p>
-            <form>
-            <fieldset>
-                <legend>Card Number</legend>
-                <input type="text" id="cardnumber" autocomplete="on" name="cardnumber" >
-            </fieldset>
-            </form>
-            <form>
-            <fieldset>
-              <legend>Name on Card</legend>  
-                <input type="text" id="name" name="names" autocomplete="on"></input>
-            </fieldset>
-            <div class="checkout_btn">
-            <button class="cta credit_cta"><a href="sucsess.html">Confirm Payment</a></button></div>
-        </section>  
-    </section>
-    <footer class="footer">
-        <div class="footer_img">
-            <img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
-        </div>
-        <div class="footer_div">
-        <div class="footer_links">
-            <h3>Customer Service</h3>
-            <a href="shipping.html"><p>Shipping</p></a>
-            <a href="termsandconditions.html"><p>Terms and conditions</p></a>
-            <a href="contact.html"><p>Contact Us</p></a>
-            <a href="aboutus.html"><p>About Us</p></a>
-        </div>
-       
-            <section class="footer_some">
-                
-                <h2>Follow us on Social Media</h2>
-                <div class="footer_some_icons">
-                    <div class="icon_some">
-                       <a href="http://www.facebook.com"> <img src="icon/icon_FB.svg"></a>
-                    </div>
-                    <div class="icon_some">
-                       <a href="http://www.instagram.com"><img src="icon/icon_instagram.svg"></a>
-                    </div>
-                    <div class="icon_some">
-                       <a href="http://www.snapchat.com"> <img src="icon/icon_snapchat.svg"></a>
-                    </div>
+                        <div class="checkout_total">
+                            <h3>Total</h3>
+                            <p>$29.99</p>
+                        </div>
+                    </section>
+                    <section class="checkout_creditcard">
+                        <div class="radio-button3">
+                            <label class="checkout_labelcreditcard">
+                                <input type="radio" name="radio">
+                                <span class="label-visible">
+                                    <p class="checkout_paymentmethod">Credit Card</p>
+                                </span>
+                            </label>
+                        </div>
+                        <p class="checkout_deliveryfee"><i>Pay securely using Credit Card</i></p>
+                        <form>
+                            <fieldset>
+                                <legend>Card Number</legend>
+                                <input type="text" id="cardnumber" autocomplete="on" name="cardnumber">
+                            </fieldset>
+                        </form>
+                        <form>
+                            <fieldset>
+                                <legend>Name on Card</legend>
+                                <input type="text" id="name" name="names" autocomplete="on">
+                            </fieldset>
+                        </form>
+                        <div class="checkout_btn">
+                            <button class="cta credit_cta">
+                                <a href="sucsess.html">Confirm Payment</a>
+                            </button>
+                        </div>
+                    </section>
                 </div>
             </section>
         </div>
-    </footer>
+        <footer class="footer">
+            <div class="footer_img">
+                <img src="images/PushingtheComfortZone.svg" alt="pushing_the_comfort_zone" class="footer_imgsrc">
+            </div>
+            <div class="footer_div">
+                <div class="footer_links">
+                    <h3>Customer Service</h3>
+                    <a href="shipping.html"><p>Shipping</p></a>
+                    <a href="termsandconditions.html"><p>Terms and conditions</p></a>
+                    <a href="contact.html"><p>Contact Us</p></a>
+                    <a href="aboutus.html"><p>About Us</p></a>
+                </div>
+                <section class="footer_some">
+                    <h2>Follow us on Social Media</h2>
+                    <div class="footer_some_icons">
+                        <div class="icon_some">
+                            <a href="http://www.facebook.com">
+                                <img src="icon/icon_FB.svg">
+                            </a>
+                        </div>
+                        <div class="icon_some">
+                            <a href="http://www.instagram.com">
+                                <img src="icon/icon_instagram.svg">
+                            </a>
+                        </div>
+                        <div class="icon_some">
+                            <a href="http://www.snapchat.com">
+                                <img src="icon/icon_snapchat.svg">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
     </main>
 </body>
+</html>
