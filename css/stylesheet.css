@@ -132,6 +132,10 @@ html{
 .footer_links a{
     margin: 5px;
 }
+.footer_links h3, h2{
+    color:#CB9B46;
+    font-size: 1.5rem;
+}
 .footer_some{
     display: flex;
     flex: 1;
