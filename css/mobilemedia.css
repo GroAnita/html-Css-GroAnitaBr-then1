@@ -155,7 +155,6 @@
         display: flex;
         max-width: 1000px;
         gap: 10px;
-        justify-content: center;
         margin:40px auto;
         align-items: end;
         overflow-x:auto;
@@ -510,9 +509,15 @@
     }
     /*product slider*/
     .fp_productslider{
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: flex;
+        max-width: 1000px;
+        gap: 10px;
+        margin:40px auto;
+        align-items: end;
+        overflow-x:auto;
+        -webkit-overflow-scrolling: touch; 
+        scroll-snap-points-x: repeat(200px);
+        scroll-snap-type: x mandatory;
     }
     .fp_productslider > div{
         flex-shrink: 0;
