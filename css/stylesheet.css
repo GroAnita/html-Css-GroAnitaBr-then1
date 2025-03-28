@@ -13,6 +13,7 @@
     padding:0px;
     box-sizing: border-box;
     
+    
 }
 * a{
     text-decoration: none;
@@ -591,9 +592,8 @@ legend{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10px;
-    max-height: 20pxs;
-    
+    margin-right: 10px;
+    max-height: 20px;
 }
 .pink1{
    
@@ -708,7 +708,7 @@ legend{
     color: var(--color-primary);
     margin: 20px 0px;
 }
-.about_us h4{
+.about_us h2{
     text-align: center;
     font-size: 1.5rem;
     color: var(--color-primary);
