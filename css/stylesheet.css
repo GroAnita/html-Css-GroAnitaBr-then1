@@ -128,6 +128,9 @@ html{
     flex-direction: column;
     text-align: center;
 }
+.footer_links a{
+    margin: 5px;
+}
 .footer_some{
     display: flex;
     flex: 1;
@@ -673,6 +676,7 @@ legend{
 .fp_newsletter_input input{
     border-radius: 5px;
     outline:2px solid var(--color-secondary);
+    padding: 5px 20px;
 }
 .fp_newsletter_txt h2{
     font-size: 1.5rem;

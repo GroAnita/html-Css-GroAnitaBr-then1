@@ -282,8 +282,8 @@
     box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(0, 0, 0, 0.18);
     border-radius: 8px; 
-    width:300px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     color:var(--color-primary);
     cursor: pointer;
     z-index: 1;
