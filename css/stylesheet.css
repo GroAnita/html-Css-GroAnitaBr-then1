@@ -144,7 +144,6 @@ html{
     align-items: center;
     gap: 10px;
     margin: 10px;
-
 }
 .footer_some h2{
     font-size: 1.2rem;
@@ -518,6 +517,17 @@ legend{
 }
 .button_success{
     display:flex;
+}
+.cardnumber{
+    border:1px solid var(--color-primary);
+    padding: 5
+}
+#cvc{
+    border:1px solid var(--color-primary);
+    padding: 5px;
+}
+#name{
+    padding:5px;
 }
 
 /*commercial*/
