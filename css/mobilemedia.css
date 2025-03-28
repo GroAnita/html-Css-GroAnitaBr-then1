@@ -206,33 +206,7 @@
             position: relative;
             display: flex;
         }
-        .header_icons1 .searchterm{
-            width: 100%;
-            border: 1px solid var(--color-primary);
-            border-right: none;
-            padding: 5px;
-            border-radius: 5px 0 0 5px;
-            outline: none;
-            color:#9dbfaf;
-        }
-        .header_icons1 .searchterm:focus{
-            color: var(--color-primary);
-        }
-        .header_icons1 .searchbtn{
-            width: 40px;
-            height: 30px;
-            border: 1px solid var(--color-primary);
-            background: var(--color-primary);
-            text-align: center;
-            color: var(--color-secondary);
-            border-radius: 0 5px 5px 0;
-            cursor: pointer;
-            font-size: 20px;
-        }
-        .header_icons1 .searchbtn i{
-            color: var(--color-secondary);
-            font-size: 0.9rem;
-        }
+        
         .checkout_form{
             display: flex;
             flex-direction: column;

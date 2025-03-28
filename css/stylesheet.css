@@ -6,6 +6,8 @@
 /* Feel free to add as many of these imports as you need */
 @import url("../css/productsite.css");
 @import url("../css/mobilemedia.css");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+
 *{
     margin:0px;
     padding:0px;
