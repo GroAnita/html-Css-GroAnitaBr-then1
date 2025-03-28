@@ -278,15 +278,20 @@
 }
 .hamburger nav{
     position:absolute;
-    background: linear-gradient(135deg, rgba(1, 45, 51, 0.1), rgba(0, 8, 11, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(18px);
+    background:#ffffff;
     box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(0, 0, 0, 0.18);
-    border-radius: 8px;
-    padding: 10px 10px; 
+    border-radius: 8px; 
+    width:300px;
+    height: 400px;
     color:var(--color-primary);
     cursor: pointer;
+    z-index: 1;
+}
+.header_nav1 a{
+    margin:20px;
+    font-size: 20px;
+    font-weight: 800;
 }
 .header1{
     display: flex;
