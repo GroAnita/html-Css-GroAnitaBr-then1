@@ -675,15 +675,19 @@ legend{
 }
 .fp_newsletter_txt h2{
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 900;
     font-family: "roboto-font", sans-serif;
     padding:5px;
     text-align: center;
+    color:var(--color-primary)
 }
 .fp_newsletter_txt p{
     font-size: 1rem;
     line-height: 1.5rem;
     padding:10px;
+    color: var(--color-primary);
+    font-family: "roboto-font", sans-serif; 
+    font-weight: 700;
     
     }
 /*about us*/
