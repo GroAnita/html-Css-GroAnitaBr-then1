@@ -594,8 +594,8 @@ legend{
 }
 .pink1{
    
-   height: 10px;
-   width: 10px;
+   height: 15px;
+   width: 15px;
    background-color: #EB2374;
    border-radius: 50%;
    display: inline-block;
@@ -603,8 +603,8 @@ legend{
    margin:5px;
 }
 .blue1{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #380dd3;
     border-radius: 50%;
     display: inline-block;
@@ -612,8 +612,8 @@ legend{
     outline:1px solid var(--color-secondary);
  }
  .green1{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #678036;
     border-radius: 50%;
     display: inline-block;
@@ -621,8 +621,8 @@ legend{
     outline:1px solid var(--color-secondary);
  }
  .grey1{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #666565;
     border-radius: 50%;
     display: inline-block;
@@ -630,8 +630,8 @@ legend{
     outline:1px solid var(--color-secondary);
  }
  .orange1{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #e6830a;
     border-radius: 50%;
     display: inline-block;
@@ -639,8 +639,8 @@ legend{
     outline:1px solid var(--color-secondary);
  }
  .red{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #e60a0a;
     border-radius: 50%;
     display: inline-block;
@@ -648,8 +648,8 @@ legend{
     outline:1px solid var(--color-secondary);
  }
  .black{
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
     background-color: #000000;
     border-radius: 50%;
     display: inline-block;
