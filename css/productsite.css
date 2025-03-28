@@ -11,12 +11,86 @@
 h2, h3, h4{
     letter-spacing: 0,08em;
 }
+/*product cards*/
+.fp_products{
+    display: flex;
+    gap: 10px;
+    
+} 
+.fp_product{
+    display: flex;
+    flex-direction: column;
+    font-family: "sf-pro-display", Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-primary);
+    max-width: 200px;
+    margin: 5px;
+}
+.fp_product img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background-color: #dae0e4;
+    display: block;
+} 
+.fp_productimg{
+    position: relative;
+}
+.fp_productimg label{
+    position:absolute;
+    top:10px;
+    right: 10px;
+    color: var(--color-secondary);
+    transition: color 0.5s;
+}
+.fp_products_txt i{
+    color:#CB9B46;
+}
+.fp_products_txt{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    width: 200px;
+}
+.fp_txt_p{
+    font-size: .5rem;
+    font-family: "roboto-font", sans-serif;
 
+}
+.fp_products_txt h4{
+    font-size: 0.7rem;
+    color: #CB9B46;
+    font-family: "roboto-font", sans-serif;
+    font-weight: 400;
+    
+}
+.fp_products_txt h2{
+    font-size: 1rem;
+    color: var(--color-secondary);
+    font-family: "roboto-font", sans-serif;
+    font-weight: 500;
+}
+.fp_cat_color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}
+.fp_prod_prize1{
+    flex: 1;
+    font-family: "roboto-font", sans-serif;
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-left: 10px;
+}
 /* outlet cards*/
 .outlet_products{
     display: flex;
     max-width: 1000px;
-    gap: 1px;
+    gap: 10px;
     justify-content: center;
     margin:40px auto;
     align-items: end;
@@ -165,7 +239,7 @@ h2, h3, h4{
     width: 25px;
     text-align: center;
  }
-/*PJ section*/
+/*PinkJacket section*/
 .pj_product{
     display:flex;
     max-width: 1000px;
