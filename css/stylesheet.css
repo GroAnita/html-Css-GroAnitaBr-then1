@@ -203,17 +203,17 @@ html{
     display: none;
     position: absolute;
     background-color: #f7f7f7;
-    min-width: 150px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     z-index: 1;
     border-radius: 8px;
     
 }
-.filter_option, .sort_option, .color_choice{
+.filter_options, .sort_option, .color_choice{
     display: flex;
+    flex-direction: column;;
     justify-content:center;
     align-items: center;
-    padding: 10px;
     border-radius: 8px;
     margin: 5px;
 }
@@ -222,13 +222,12 @@ html{
 }
 .filter_menu-dropdown:hover .filter_menu{
     background-color: #e5e5e5;
-   
 }
 .filter, .sort, .color_choice{
     display:flex;
     flex-direction: column;
-    margin: 3px;
-    padding: 10px;
+    margin:auto;
+    padding:5px;
     border: solid 2px var(--color-primary);
     border-radius: 8px;
 }
