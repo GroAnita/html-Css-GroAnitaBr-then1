@@ -4,9 +4,9 @@
 :root {
   --color-primary: #0A3641;
   --color-secondary: #ffffff;
-  --font-primary:"roboto-font", sans-serif;
+  --font-primary:"Roboto", sans-serif;
   --font-weight-primary: 500;
-  --font-secondary: "oswald-font", sans-serif;
+  --font-secondary: "Oswald", sans-serif;
   --font-weight-secondary: 400;
   --font-sizemobile-li:0.7rem;
   --font-sizemobile-h4:0.9rem;
@@ -14,6 +14,14 @@
   --font-sizemobile-h2:1.1rem;
   --font-sizemobile-p:0.7rem;
   --font-sizemobile-h1:1.3rem;
+  --font-size-desktop-li: 1.2rem;
+  --font-size-desktop-h4: 1.5rem;
+  --font-size-desktop-h3: 1.8rem;
+  --font-size-desktop-h2: 2rem;
+  --font-size-desktop-p: 1.2rem;
+  --font-size-desktop-h1: 2.5rem;
+  --img-bgcolor:#dae0e4;
+  --special-fontcolor:#CB9B46;
   
 }
 

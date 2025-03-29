@@ -22,9 +22,15 @@
         margin-left: 20px;
     }
     .header_nav1 a{
+        display:inline-block;
+        padding: 10px 20px;
+        text-align: center;
         text-decoration: none;
         color: var(--color-primary);
-        margin: 0 20px;
+        margin-left:10px;
+        font: var(--font-secondary);
+        font-size: 1.1rem;
+        font-weight: 800;
     }
     .header_nav1 a:hover{
         color: #CB9B46;
