@@ -186,14 +186,18 @@ html{
 
 
 /*dropdown filter menu*/
-
+.x_close_btn{
+    position: relative;
+    top: -10px;
+    right: -90px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
 .filter_menu-dropdown input{
     padding: 10px;
     border-radius: 5px;
     border-style: none;
-    margin: 10px;
-    flex-wrap: wrap-reverse;
-
+    margin: 5px;
 }
 .dropdown_content{
     display: none;
@@ -204,6 +208,14 @@ html{
     z-index: 1;
     border-radius: 8px;
     
+}
+.filter_option, .sort_option, .color_choice{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
 }
 .filter_menu-dropdown:hover .dropdown_content{
     display: block;
@@ -239,6 +251,7 @@ html{
 .filter_button:active{
     background-color: #CB9B46;
 }
+
 /*buttons*/
 .cta{
     background-color: #e60a0a;
