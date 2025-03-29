@@ -154,7 +154,7 @@
                         </div>
                         <p class="checkout_deliveryfee"><i>Pay securely using Credit Card</i></p>
                         <form>
-                            <fieldset>
+                            <fieldset class="cardnumber_box">
                                 <legend>Card Number</legend>
                                 <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard1" id="creditcardnr1" required/>
                                 -
@@ -164,11 +164,11 @@
                                 -
                                 <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard4" id="creditcardnr4" required/>
                             </fieldset>
-                            <fieldset>
+                            <fieldset class="cvc_box">
                                 <legend>CVC</legend>
                                 <input type="text" id="cvc" autocomplete="on" name="cvc">
                             </fieldset>
-                            <fieldset>
+                            <fieldset class="expire_box">
                                 <legend>Expiery</legend>
                                 <select name='expiremonth' id='expiremonth'>
                                     <option value=''>Month</option>

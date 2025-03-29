@@ -461,8 +461,21 @@ legend{
     padding-right: 2px;
     border: none;
 }
+.cardnumber_box{
+    max-width: 250px;
+}
+.cvc_box{
+    max-width: 80px;
+}
+.expire_box{
+    max-width: 170px;
+}
 .checkout_creditcard input{
     border:none;
+    max-width: 200px;
+}
+.cardnumber{
+    width: 50px;
 }
 
 .button_success button{
