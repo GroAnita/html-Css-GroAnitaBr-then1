@@ -2,26 +2,48 @@
 /* This could be colors, fonts, or padding sizes! */
 
 :root {
-  --color-primary: #0A3641;
-  --color-secondary: #ffffff;
-  --font-primary:"Roboto", sans-serif;
-  --font-weight-primary: 500;
-  --font-secondary: "Oswald", sans-serif;
-  --font-weight-secondary: 400;
-  --font-sizemobile-li:0.7rem;
-  --font-sizemobile-h4:0.9rem;
-  --font-sizemobile-h3:1rem;
-  --font-sizemobile-h2:1.1rem;
-  --font-sizemobile-p:0.7rem;
-  --font-sizemobile-h1:1.3rem;
-  --font-size-desktop-li: 1.2rem;
-  --font-size-desktop-h4: 1.5rem;
-  --font-size-desktop-h3: 1.8rem;
-  --font-size-desktop-h2: 2rem;
-  --font-size-desktop-p: 1.2rem;
-  --font-size-desktop-h1: 2.5rem;
-  --img-bgcolor:#dae0e4;
-  --special-fontcolor:#CB9B46;
-  
+  /* 🌈 Color Palette */
+  --primary-color: #0077cc;
+  --secondary-color: #ff6600;
+  --accent-color: #00cc99;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --muted-text-color: #666666;
+  --border-color: #e0e0e0;
+  --error-color: #e74c3c;
+  --success-color: #27ae60;
+
+  /* 🖋 Typography */
+  --font-family-base: 'Helvetica Neue', sans-serif;
+  --font-family-heading: 'Montserrat', sans-serif;
+
+  --font-size-xs: 0.75rem;  /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem;   /* 16px */
+  --font-size-lg: 1.25rem;  /* 20px */
+  --font-size-xl: 1.5rem;   /* 24px */
+  --font-size-xxl: 2rem;    /* 32px */
+
+  /* 📏 Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* 🟦 Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* 🌫 Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* 🕒 Transitions */
+  --transition-speed: 0.3s;
+  --transition-ease: ease-in-out;
 }
+
 
