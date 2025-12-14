@@ -8,6 +8,8 @@ const fpProduct = document.getElementById('fpProduct');
 let currentIndex = 0;
 const productsPerPage = 4;
 
+
+
 function displayProducts() {
     fpProduct.innerHTML = '';
     

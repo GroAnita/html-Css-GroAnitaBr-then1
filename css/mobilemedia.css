@@ -353,6 +353,34 @@
         border:1px solid var(--color-primary);
     }
     /*front page commercial content*/
+/* Mobile version - show 1 product at a time or 4 in column */
+
+    .fp_productslider {
+        flex-direction: column !important;
+        padding: 0 20px !important;
+    }
+
+    .fp_productslider .fp_product {
+        display: grid !important;
+        flex-direction: column !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+        overflow: visible !important;
+        flex-wrap: wrap !important; ;
+    }
+    
+    .fp_productslider .fp_product_card {
+        flex: none ;
+        max-width: 100%;
+        min-width: 100% ;
+        width: 100% ;
+    }
+    
+    .fp_productslider .slider-btn {
+        display: none;
+    }
+
     .fp_sale_wmbtn, .fp_sale_mbtn, .searchterm, .searchbtn{
         display:none;
     }
