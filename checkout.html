@@ -5,6 +5,7 @@
     <meta name="description" content="checkout page for Rainydays website">
     <meta name="keywords" content="Rainydays, jackets, outdoor, hiking, skiing,riding">
     <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -15,6 +16,14 @@
 <body>
     <main>
         <div class="content">
+           
+   <section class="header-topbar">
+                <div class="header_icons1"
+                        <a href="cart.html" class="fa-solid fa-cart-shopping" aria-label="cart icon"></a> 
+                        <a href="index.html" class="fa-solid fa-home" aria-label="home icon"> </a>
+                        <a href="login.html" class="fa-solid fa-user" aria-label="login icon"></a>
+                    </div>
+            </section>    
             <header class="header1">
                 <div class="logo1">
                     <a href="index.html">
@@ -36,86 +45,55 @@
                         <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
                     </a>
                 </div>
-                <section class="header_icons1">
-                    <div class="search">
-                        <label for="search" class="search" aria-label="search field">
-                        <input type="text" class="searchterm" id="search" placeholder="search">
-                        <a href="login.html" aria-label="search button">
-                        <button type="submit" class="searchbtn" aria-label="search button">
-                            <i class="fa-solid fa-magnifying-glass" aria-label="searchfield hidden in mobile"></i>
-                        </button>
-                        </a>
-                    </div>
-                        <a href="cart.html" class="fa-solid fa-cart-shopping" aria-label="cart icon"></a> 
-                        <a href="index.html" class="fa-solid fa-home" aria-label="home icon"> </a>
-                        <a href="login.html" class="fa-solid fa-user" aria-label="login icon"></a>
-                </section>
+               
+                    <div class="search_input">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input class="input" type="text" placeholder="Search">
+</div>
+
+                        
+                
             </header>
             <h2 class="checkout_headline">Checkout</h2>
             <section class="checkout">
                 <div class="checkout_form_left">
                     <h3>We need some information</h3>
                     <form class="checkout_form">
-                        <fieldset>
-                            <legend>First Name</legend>
-                            <input type="text" id="fname" name="firstname" autocomplete="on">
-                        </fieldset>
-                        <fieldset>
-                            <legend>Last Name</legend>
-                            <input type="text" id="lname" name="lastname" autocomplete="on">
-                        </fieldset>
-                        <fieldset>
-                            <legend>E-mail</legend>
-                            <input type="email" id="email" name="email" autocomplete="on">
-                        </fieldset>
-                        <fieldset>
-                            <legend>Delivery Address</legend>
-                            <input type="text" id="address" name="address" autocomplete="on">
-                        </fieldset>
-                        <fieldset>
-                            <legend>City</legend>
-                            <input type="text" id="city" name="city" autocomplete="on">
-                        </fieldset>
-                        <fieldset>
-                            <legend>Zip Code</legend>
-                            <input type="text" id="zip" name="zip">
-                        </fieldset>
-                        <fieldset>
-                            <legend>Country</legend>
-                            <select id="country" name="Country">
-                                <option value="usa">USA</option>
-                                <option value="canada">Canada</option>
-                                <option value="australia">Australia</option>
-                            </select>
-                        </fieldset>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" autocomplete="on" required>
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" autocomplete="on" required>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" autocomplete="on" required>
+                        <label for="postalcode">Postal Code</label>
+                        <input type="text" id="postalcode" name="postalcode" autocomplete="on" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="on" required>
                     </form>
-                    <div class="checkout_delivery">
-                        <h3 class="checkout_h3">Delivery</h3>
+                     <div class="checkout_delivery_options">
+                        <h3 class="checkout_delivery_options_h3">Delivery Options</h3>
                         <article class="checkout_radiobtn">
                             <div class="radio-button1">
-                                <label class="checkout_label">
-                                    <input type="radio" id="radio1" name="radio" checked="checked">
-                                    <span class="label-visible">
-                                        <p class="checkout_company">USPS</p>
-                                    </span>
-                                </label>
+                                <input type="radio" id="company1" name="delivery">
+<label class="checkout_company" for="company1">USPS</label>
                                 <p class="checkout_deliveryfee">Free delivery, over $20</p>
                             </div>
                             <div class="radio-button2">
-                                <label class="checkout_label">
-                                    <input type="radio" id="radio2" name="radio">
-                                    <span class="label-visible">
-                                        <p class="checkout_company">FedEx</p>
-                                    </span>
-                                </label>
+                                <input type="radio" id="company2" name="delivery">
+<label class="checkout_company" for="company2">UPS</label>
                                 <p class="checkout_deliveryfee">Free delivery, over $50</p>
                             </div>
                         </article>
                     </div>
-                </div>
+            </section>
+
+
+            <section class="checkout_products_section">
                 <div class="checkout_products_right">
                     <div class="checkout_products">
+                        <h4 class="checkout_yourcart">Your Cart</h4>
                         <div class="checkout_product">
+                            
                             <div class="checkout_img">
                                 <img src="images/products/stormrunner_pinkthumbnail.jpg" alt="pink_jacket_stormrunner" class="checkout_product_img">
                             </div>
@@ -128,16 +106,18 @@
                             </div>
                         </div>
                     </div>
-                    <p>Quantity</p>
+                    <div class="checkout_quantity">
+                    <p class="checkout_quantity_label">Quantity</p>
                     <select name="quantity" id="quantity">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
+                    <i class="fa-solid fa-trash"></i>
+                    </div>
                     <section class="checkout_end">
-                        <p>Quantity</p>
-                        <p>Shipping</p>
+                        <p>Shipping:</p>
                         <div class="checkout_total">
                             <h3>Total</h3>
                             <p>$29.99</p>
@@ -148,59 +128,62 @@
                             <label class="checkout_labelcreditcard">
                                 <input type="radio" name="radio">
                                 <span class="label-visible">
-                                    <p class="checkout_paymentmethod">Credit Card</p>
+                                    <p class="checkout_paymentmethod"><i class="fa-regular fa-credit-card"></i> Credit Card</p>
                                 </span>
                             </label>
                         </div>
-                        <p class="checkout_deliveryfee"><i>Pay securely using Credit Card</i></p>
+                        <p class="checkout_deliveryfee">Pay securely using Credit Card</p>
                         <form>
-                            <fieldset class="cardnumber_box">
-                                <legend>Card Number</legend>
-                                <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard1" id="creditcardnr1" required/>
-                                -
-                                <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard2" id="creditcardnr2" required/>
-                                -
-                                <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard3" id="creditcardnr3" required/>
-                                -
-                                <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard4" id="creditcardnr4" required/>
-                            </fieldset>
-                            <fieldset class="cvc_box">
-                                <legend>CVC</legend>
-                                <input type="text" id="cvc" autocomplete="on" name="cvc">
-                            </fieldset>
-                            <fieldset class="expire_box">
-                                <legend>Expiery</legend>
-                                <select name='expiremonth' id='expiremonth'>
-                                    <option value=''>Month</option>
-                                    <option value='01'>January</option>
-                                    <option value='02'>February</option>
-                                    <option value='03'>March</option>
-                                    <option value='04'>April</option>
-                                    <option value='05'>May</option>
-                                    <option value='06'>June</option>
-                                    <option value='07'>July</option>
-                                    <option value='08'>August</option>
-                                    <option value='09'>September</option>
-                                    <option value='10'>October</option>
-                                    <option value='11'>November</option>
-                                    <option value='12'>December</option>
-                                </select> 
-                                <select name='expireyear' id='expireyear'>
-                                    <option value=''>Year</option>
-                                    <option value='25'>2025</option>
-                                    <option value='26'>2026</option>
-                                    <option value='27'>2027</option>
-                                    <option value='28'>2028</option>
-                                    <option value='29'>2029</option>
-                                </select>
-                            </fieldset>
-                        </form>
-                        <form>
-                            <fieldset>
-                                <legend>Name on Card</legend>
+                            <div class="cardholder">
+                                <label for="name">Name on Card</label>
                                 <input type="text" id="name" name="names" autocomplete="on">
-                            </fieldset>
+                            </div>
+                            <div class="cardnumber_box">
+                                <label for="creditcardnr1">Card Number</label>
+                                <div class="cardnumber_inputs">
+                                    <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard1" id="creditcardnr1" required/>
+                                    -
+                                    <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard2" id="creditcardnr2" required/>
+                                    -
+                                    <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard3" id="creditcardnr3" required/>
+                                    -
+                                    <input class="cardnumber" type="tel" pattern="[0-9]*" maxlength="4" name="creditCard4" id="creditcardnr4" required/>
+                                </div>
+                            </div>
+                            <div class="cvc_box">
+                                <label for="cvc">CVC</label>
+                                <input type="text" id="cvc" autocomplete="on" name="cvc">
+                            </div>
+                            <div class="expire_box">
+                                <label for="expiremonth">Expiry</label>
+                                <div class="expire_selects">
+                                    <select name='expiremonth' id='expiremonth'>
+                                        <option value=''>Month</option>
+                                        <option value='01'>January</option>
+                                        <option value='02'>February</option>
+                                        <option value='03'>March</option>
+                                        <option value='04'>April</option>
+                                        <option value='05'>May</option>
+                                        <option value='06'>June</option>
+                                        <option value='07'>July</option>
+                                        <option value='08'>August</option>
+                                        <option value='09'>September</option>
+                                        <option value='10'>October</option>
+                                        <option value='11'>November</option>
+                                        <option value='12'>December</option>
+                                    </select> 
+                                    <select name='expireyear' id='expireyear'>
+                                        <option value=''>Year</option>
+                                        <option value='25'>2025</option>
+                                        <option value='26'>2026</option>
+                                        <option value='27'>2027</option>
+                                        <option value='28'>2028</option>
+                                        <option value='29'>2029</option>
+                                    </select>
+                                </div>
+                            </div>
                         </form>
+                        
                         <div class="checkout_btn">
                             <button class="cta credit_cta">
                                 <a href="sucsess.html">Confirm Payment</a>

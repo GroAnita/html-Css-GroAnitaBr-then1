@@ -1,0 +1,114 @@
+.women_products {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	gap: 25px;
+	width: 100%;
+	height: 100%;
+    
+}
+
+.men_products {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.fp_product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    background-color: #f5f5f5;
+    max-width: 400px;
+    height: 100%;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}
+
+.fp_products_txt{
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+
+}
+.fp_product img{
+   
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 8px;
+   
+}
+.fp_productbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.fp_producttitle{
+    font-size: var(--font-size-desktop-h3);
+    font-weight: var(--font-weight-primary);
+    margin: 10px 0 5px 0;
+}
+.fp_productprice{
+    font-size: var(--font-size-desktop-h2);
+    font-weight: var(--font-weight-primary);
+    margin: 5px 0 10px 0;
+}
+.fp_addtocartbtn{
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+.fp_addtocartbtn:hover{
+    background-color: var(--special-fontcolor);
+}
+
+.discount_price{
+    font-size: var(--font-size-desktop-h4);
+    font-weight: var(--font-weight-primary);
+    margin: 5px 0 10px 0;
+    color: red;
+}
+
+.price_discount{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.price_discount h2.original-price{
+    text-decoration: line-through;
+    color: grey;
+    margin-left: 10px;
+}
+.onsale {
+    background-color: rgb(28, 154, 0);
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h5);
+    font-weight: var(--font-weight-primary);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 500; 
+}

@@ -19,6 +19,13 @@
 <div class="content">
     <main>
         <div class="content">
+            <section class="header-topbar">
+                <div class="header_icons1"
+                        <a href="cart.html" class="fa-solid fa-cart-shopping" aria-label="cart icon"></a> 
+                        <a href="index.html" class="fa-solid fa-home" aria-label="home icon"> </a>
+                        <a href="login.html" class="fa-solid fa-user" aria-label="login icon"></a>
+                    </div>
+            </section>    
             <header class="header1">
                 <div class="logo1">
                     <a href="index.html">
@@ -40,20 +47,16 @@
                         <img src="images/RainyDays_Logo.png" alt="rainydays_logo" class="logo_imgmobile">
                     </a>
                 </div>
-                <section class="header_icons1">
-                    <div class="search">
-                        <label for="search" class="search" aria-label="search field">
-                        <input type="text" class="searchterm" id="search" placeholder="search">
-                        
-                        <button type="submit" class="searchbtn" aria-label="search button" onclick="window.location.href='login.html';">
-                            <i class="fa-solid fa-magnifying-glass" aria-label="searchfield hidden in mobile"></i>
-                        </button>
+               
+                    <div class="search_input">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input class="input" type="text" placeholder="Search">
+</div>
+
                         
                     </div>
-                        <a href="cart.html" class="fa-solid fa-cart-shopping" aria-label="cart icon"></a> 
-                        <a href="index.html" class="fa-solid fa-home" aria-label="home icon"> </a>
-                        <a href="login.html" class="fa-solid fa-user" aria-label="login icon"></a>
-                </section>
+                     
+              
             </header>  
             <section>
               <div class="fp_hero">
@@ -66,178 +69,12 @@
                 </div>
             </section>
             <h1 class="fp_h2_hl">Best sellers</h1>
-            <section class="fp_productslider">
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <a href="product-pages/pinkjacket.html">
-                             <img src="images/products/stormrunnernobg.png" alt="pink_jacket_stormrunner" class="card_prod_img1">
-                        </a>
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Active</h4>
-                            <div class="color_choices">  
-                                <div class="pink1"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Stormrunner</h2>
-                            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon"></i> </p>
-                        </div>
-                    </div> 
+            <section class="fp_productslider" id="productSlider">
+                <button id="prevBtn" class="slider-btn prev-btn" onclick="prevSlide()" aria-label="Previous products">‹</button>
+                <div class="fp_product" id="fpProduct">
+                    
                 </div>
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <a href="product-pages/blackstormrunner.html">
-                            <img src="images/products/stormrunnerblacknobg.png" alt="black jacket stormrunner" class="card_prod_img1">
-                        </a>
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria_label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Active</h4>
-                            <div class="color_choices">  
-                                <div class="pink1"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Stormrunner</h2>
-                            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart label"></i> </p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <a href="product-pages/pinkjacket.html"><img src="images/products/stormrunnernobg.png" alt="Stormrunner in the color pink" class="card_prod_img1"></a>
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon" onclick="window.location.href='cart.html';"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Active</h4>
-                            <div class="color_choices">  
-                                <div class="pink1"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Stormrunner</h2>
-                            <p class="fp_prod_prize1">$29.99 
-                                <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon" onclick="window.location.href='cart.html';"></i> 
-                            </p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <img src="images/products/stormrunnerbluenobg.png" alt="Stormrunner in blue color" class="card_prod_img1">
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Active</h4>
-                            <div class="color_choices">  
-                                <div class="pink1"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Stormrunner</h2>
-                            <p class="fp_prod_prize1">$29.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart label" onclick="window.location.href='cart.html';"></i> </p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <img src="images/products/aquaforceyellownobg.png" alt="Aquaforce everyday jacket in yellow" class="card_prod_img1">
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Everyday</h4>
-                            <div class="color_choices">  
-                                <div class="red"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Aquaforce</h2>
-                            <p class="fp_prod_prize1">$129.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon" onclick="window.location.href='cart.html';"></i> </p>
-                        </div>
-                    </div> 
-                </div> 
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <img src="images/products/elementxnobg.png" alt="ElementX active wear jacket in red color" class="card_prod_img1">
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Active</h4>
-                            <div class="color_choices">  
-                                <div class="red"></div>
-                                <div class="blue1"></div>
-                                <div class="green1"></div>
-                                <div class="grey1"></div>
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">ElementX</h2>
-                            <p class="fp_prod_prize1">$89.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon" onclick="window.location.href='cart.html';"></i> </p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <img src="images/products/polarguardnobg.png" alt="Polarguard extreme jacket for extreme weather" class="card_prod_img1">
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                            <h4 class="fp_products_h4">Extreme</h4>
-                            <div class="color_choices">  
-                                <div class="orange1"></div> 
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">Polarguard</h2>
-                            <p class="fp_prod_prize1">$199.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon" onclick="window.location.href='cart.html';"></i> </p>
-                        </div>
-                    </div> 
-                </div> 
-                <div class="fp_product">
-                    <div class="fp_productimg">
-                        <img src="images/products/polarflexpinknobg.png" alt="Polarflex extreme jacket for extreme weather in pink" class="card_prod_img1">
-                        <label for="heart_checkbox" class="fa-solid fa-heart" aria-label="heart icon"></label> 
-                    </div>  
-                    <div class="fp_products_txt"> 
-                        <div class="fp_cat_color">
-                        <h4 class="fp_products_h4">Extreme</h4>
-                            <div class="color_choices">  
-                                <div class="blue1"></div>
-                                <div class="pink1"></div>
-                                <div class="grey1"></div>
-                
-                            </div> 
-                        </div>
-                        <div class="fp_name_price">
-                            <h2 class="fp_products_h2">PolarFlex</h2>
-                            <p class="fp_prod_prize1">$169.99 <i class="fa-solid fa-cart-shopping" aria-label="shopping cart icon" onclick="window.location.href='cart.html';"></i> </p>
-                        </div>
-                    </div> 
-                </div> 
+                <button id="nextBtn" class="slider-btn next-btn" onclick="nextSlide()" aria-label="Next products">›</button> 
             </section>
             <section class="fp_sale">
                 <div class="fp_sale_img">
@@ -294,6 +131,7 @@
             </div>
         </footer>
         </div>
+        <script type="module" src="js/products.js"></script>
     </main>  
     </body>
 </html>

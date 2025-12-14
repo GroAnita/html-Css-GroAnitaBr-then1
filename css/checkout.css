@@ -1,0 +1,298 @@
+   .checkout{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1400px;
+    margin: auto;
+   }
+
+.checkout_form_left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 275px;
+}
+
+.checkout_yourcart {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h3);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.checkout_form_right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 375px;
+}
+.checkout_form_left label,
+.checkout_form_right label {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+}
+.checkout_form_left input,
+.checkout_form_right input {
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    width: 100%;
+}
+.checkout_submit_btn {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-top: 20px;
+}
+.checkout_submit_btn:hover {
+    background-color: var(--special-fontcolor);
+}
+
+.checkout_headline {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h1);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.checkout_delivery_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    width: 275px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.checkout_delivery_options_h3 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h3);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.checkout_radiobtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+input[type="radio"] {
+    display: none; /* Hide real radio */
+}
+
+input[type="radio"] + .checkout_company::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0acc00;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #f5f5f5;
+}
+
+input[type="radio"]:checked + .checkout_company::before {
+    background: #0acc00; /* Fill when checked */
+     content: '\2713';
+}
+
+.checkout_products_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: var(--img-bgcolor);
+    border-radius: 8px;
+}
+
+.checkout_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    border: 1px solid var(--color-primary);
+}
+
+.checkout_img img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.h4product_card {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h6);
+    font-weight: var(--font-weight-primary);
+    color: var(--special-fontcolor);
+    margin: 0;
+}
+
+.h3product_card {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h4);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.checkout_product_txt p {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    margin: 5px 0;
+}
+
+.checkout_product_txt .checkout_price {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h5);
+    font-weight: var(--font-weight-primary);
+    color: red;
+    margin: 0 15px 0 0;
+}
+
+.checkout_quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.checkout_quantity i {
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.checkout_quantity_label {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+}
+
+.checkout_end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 40px auto;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-p);
+    font-weight: var(--font-weight-primary);
+    color: var(--color-primary);
+    background-color: aliceblue;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.checkout_paymentmethod {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-desktop-h3);
+    font-weight: var(--font-weight-primary);
+}
+
+.checkout_paymentmethod i {
+    margin-right: 10px;
+    font-size: 26px;
+}
+
+
+.checkout_creditcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cardnumber_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.cardnumber_box input {
+    padding: 5px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+.cvc_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 65px;
+    margin-top: 10px;
+}
+.cvc_box input {
+    padding: 5px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    width: 50px;
+}
+
+.expire_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    margin-top: 10px;
+}
+
+.cardholder {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.cardholder input {
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
