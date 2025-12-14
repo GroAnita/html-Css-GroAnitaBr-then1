@@ -22,9 +22,9 @@ function displayWomenProducts() {
         productCard.className = 'fp_product';
         productCard.innerHTML = `
             <div class="fp_productimg">
-                <a href="product-pages/product.html?id=${product.id}">
+                
                     <img src="${product.image.url}" alt="${product.title}">
-                </a>
+                
                 ${product.onSale ? '<label class="onsale">On Sale</label>' : ''}
             </div>
             <div class="fp_products_txt">

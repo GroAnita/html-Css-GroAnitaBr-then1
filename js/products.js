@@ -20,7 +20,7 @@ function displayProducts() {
         productCard.className = 'fp_product_card';
         productCard.innerHTML = `
             <div class="fp_productimg">
-                <a href="product-pages/product.html?id=${product.id}">
+                <a href="productpage.html?id=${product.id}">
                     <img src="${product.image.url}" alt="${product.title}" class="card_prod_img1">
                 </a>
             </div>
