@@ -1,6 +1,12 @@
 # **Rainydays**
 A front-end project built with HTML and CSS
 
+link to live demo : https://groanita.github.io/html-Css-GroAnitaBr-then1/
+
+<img width="1469" height="791" alt="Screenshot 2026-01-09 at 11 24 05" src="https://github.com/user-attachments/assets/0c7f09d2-f989-43f9-beab-be0401dde66c" />
+
+
+
 ### **📌 Project Description**
 
 RainyDays is a fictional outdoor jacket brand created as part of my first-semester project at Noroff.
